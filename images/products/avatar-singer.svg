@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="singerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a20"/>
+      <stop offset="50%" style="stop-color:#2d1040"/>
+      <stop offset="100%" style="stop-color:#1a0a20"/>
+    </linearGradient>
+    <linearGradient id="singerHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d"/>
+      <stop offset="50%" style="stop-color:#c44569"/>
+      <stop offset="100%" style="stop-color:#8b2252"/>
+    </linearGradient>
+    <linearGradient id="singerSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4e8"/>
+      <stop offset="100%" style="stop-color:#f5d0d8"/>
+    </linearGradient>
+    <radialGradient id="stageGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:0.35"/>
+      <stop offset="50%" style="stop-color:#c44569;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#1a0a20;stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="dressGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d"/>
+      <stop offset="50%" style="stop-color:#c44569"/>
+      <stop offset="100%" style="stop-color:#8b2252"/>
+    </linearGradient>
+    <filter id="stageFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="sparkle">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#singerBg)"/>
+  <ellipse cx="200" cy="230" rx="180" ry="220" fill="url(#stageGlow)"/>
+  <g filter="url(#stageFilter)">
+    <ellipse cx="200" cy="120" rx="90" ry="105" fill="url(#singerHair)"/>
+    <path d="M110 150 Q105 195 115 240 Q98 215 92 180 Q88 152 108 138 Z" fill="url(#singerHair)"/>
+    <path d="M290 150 Q295 195 285 240 Q302 215 308 180 Q312 152 292 138 Z" fill="url(#singerHair)"/>
+  </g>
+  <g>
+    <ellipse cx="200" cy="205" rx="60" ry="72" fill="url(#singerSkin)"/>
+    <ellipse cx="175" cy="185" rx="14" ry="9" fill="#fff" opacity="0.85"/>
+    <ellipse cx="225" cy="185" rx="14" ry="9" fill="#fff" opacity="0.85"/>
+    <circle cx="177" cy="187" r="7" fill="#ff6b9d"/>
+    <circle cx="227" cy="187" r="7" fill="#ff6b9d"/>
+    <circle cx="178" cy="186" r="2.5" fill="#fff"/>
+    <circle cx="228" cy="186" r="2.5" fill="#fff"/>
+    <path d="M190 228 Q200 238 210 228" stroke="#e8a0a8" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="168" cy="208" rx="10" ry="6" fill="#f5b8c4" opacity="0.45"/>
+    <ellipse cx="232" cy="208" rx="10" ry="6" fill="#f5b8c4" opacity="0.45"/>
+  </g>
+  <g filter="url(#stageFilter)" opacity="0.95">
+    <path d="M148 285 Q142 340 153 395 Q165 450 190 485 L210 485 Q235 450 247 395 Q258 340 252 285 Q228 270 200 267 Q172 270 148 285 Z" fill="url(#dressGrad)"/>
+    <path d="M148 285 Q166 300 200 296 Q234 300 252 285 Q232 273 200 269 Q168 273 148 285 Z" fill="#ffd0e0" opacity="0.35"/>
+  </g>
+  <g opacity="0.12" filter="url(#sparkle)">
+    <circle cx="80" cy="120" r="2.5" fill="#fff"/>
+    <circle cx="320" cy="100" r="2" fill="#fff"/>
+    <circle cx="60" cy="280" r="2" fill="#fff"/>
+    <circle cx="340" cy="260" r="2.5" fill="#fff"/>
+    <circle cx="90" cy="420" r="1.8" fill="#fff"/>
+    <circle cx="310" cy="400" r="2.2" fill="#fff"/>
+    <circle cx="50" cy="350" r="1.5" fill="#fff"/>
+    <circle cx="350" cy="330" r="1.8" fill="#fff"/>
+  </g>
+</svg>

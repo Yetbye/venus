@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="teacherBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8"/>
+      <stop offset="50%" style="stop-color:#ebe4d8"/>
+      <stop offset="100%" style="stop-color:#e8e0d4"/>
+    </linearGradient>
+    <linearGradient id="teacherHair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a3028"/>
+      <stop offset="50%" style="stop-color:#2a2018"/>
+      <stop offset="100%" style="stop-color:#1a1510"/>
+    </linearGradient>
+    <linearGradient id="teacherSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5dcc8"/>
+      <stop offset="100%" style="stop-color:#e8c8b0"/>
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="50%" style="stop-color:#162d48"/>
+      <stop offset="100%" style="stop-color:#0f2038"/>
+    </linearGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:0.15"/>
+      <stop offset="60%" style="stop-color:#c49464;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#f5f0e8;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="softShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="2" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.25"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#teacherBg)"/>
+  <ellipse cx="200" cy="245" rx="165" ry="205" fill="url(#warmGlow)"/>
+  <g filter="url(#softShadow)">
+    <ellipse cx="200" cy="130" rx="78" ry="92" fill="url(#teacherHair)"/>
+    <path d="M122 158 Q117 202 127 244 Q110 220 105 183 Q101 156 120 142 Z" fill="url(#teacherHair)"/>
+    <path d="M278 158 Q283 202 273 244 Q290 220 295 183 Q299 156 280 142 Z" fill="url(#teacherHair)"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <ellipse cx="200" cy="212" rx="56" ry="68" fill="url(#teacherSkin)"/>
+    <rect x="168" y="190" width="26" height="16" rx="7" fill="#fff"/>
+    <rect x="206" y="190" width="26" height="16" rx="7" fill="#fff"/>
+    <circle cx="181" cy="198" r="6" fill="#2a4060"/>
+    <circle cx="221" cy="198" r="6" fill="#2a4060"/>
+    <circle cx="182" cy="197" r="2" fill="#fff"/>
+    <circle cx="222" cy="197" r="2" fill="#fff"/>
+    <path d="M191 234 Q200 244 209 234" stroke="#d4a88a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="172" cy="214" rx="9" ry="5.5" fill="#e8b498" opacity="0.45"/>
+    <ellipse cx="228" cy="214" rx="9" ry="5.5" fill="#e8b498" opacity="0.45"/>
+  </g>
+  <g filter="url(#softShadow)" opacity="0.95">
+    <path d="M146 290 Q140 350 152 410 Q164 468 190 490 L210 490 Q236 468 248 410 Q260 350 254 290 Q228 275 200 272 Q172 275 146 290 Z" fill="url(#suitGrad)"/>
+    <line x1="200" y1="290" x2="200" y2="490" stroke="#2a4a70" stroke-width="1" opacity="0.3"/>
+    <path d="M175 310 L225 310" stroke="#d4a574" stroke-width="2" opacity="0.35"/>
+    <path d="M178 320 L222 320" stroke="#d4a574" stroke-width="1.5" opacity="0.25"/>
+  </g>
+  <g opacity="0.08">
+    <text x="200" y="498" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#3a3028" letter-spacing="2">PROFESSIONAL</text>
+  </g>
+</svg>

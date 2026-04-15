@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" fill="none">
+  <!-- 富士山轮廓 - 浮世绘风格 -->
+  <defs>
+    <linearGradient id="fujiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E6B8A"/>
+      <stop offset="30%" style="stop-color:#1B4B6F"/>
+      <stop offset="70%" style="stop-color:#0F3A5C"/>
+      <stop offset="100%" style="stop-color:#1B4B6F"/>
+    </linearGradient>
+    <linearGradient id="snowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF"/>
+      <stop offset="100%" style="stop-color:#E8F4F8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 天空背景 -->
+  <rect x="0" y="0" width="300" height="200" fill="#E8F4F8" opacity="0.15"/>
+  
+  <!-- 远山轮廓 -->
+  <path d="M20 180 Q80 160 150 165 Q220 170 280 160" 
+        stroke="#1B4B6F" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- 富士山主体 - 对称山形 -->
+  <path d="M50 180 L150 20 L250 180 Q200 175 150 178 Q100 175 50 180" 
+        fill="url(#fujiGrad)"/>
+  
+  <!-- 山体纹理线 -->
+  <g stroke="#0F3A5C" stroke-width="0.5" fill="none" opacity="0.4">
+    <path d="M80 150 L150 20 L220 150"/>
+    <path d="M100 120 L150 20 L200 120"/>
+    <path d="M120 80 L150 20 L180 80"/>
+  </g>
+  
+  <!-- 山顶积雪 -->
+  <path d="M95 100 L150 20 L205 100 Q195 98 185 102 Q175 96 165 100 Q155 94 150 98 Q145 94 135 100 Q125 96 115 102 Q105 98 95 100" 
+        fill="url(#snowGrad)"/>
+  
+  <!-- 雪线纹理 -->
+  <path d="M110 85 L150 20 L190 85" 
+        stroke="#E8F4F8" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- 山腰云雾 -->
+  <g fill="#FFF" opacity="0.4">
+    <ellipse cx="100" cy="140" rx="30" ry="8"/>
+    <ellipse cx="200" cy="145" rx="25" ry="7"/>
+    <ellipse cx="150" cy="155" rx="35" ry="10"/>
+  </g>
+  
+  <!-- 山脚平原 -->
+  <path d="M0 180 Q75 170 150 175 Q225 180 300 170 L300 200 L0 200 Z" 
+        fill="#2E6B8A" opacity="0.3"/>
+  
+  <!-- 山脚树木剪影 -->
+  <g fill="#0F3A5C" opacity="0.5">
+    <ellipse cx="80" cy="178" rx="3" ry="6"/>
+    <ellipse cx="90" cy="177" rx="2.5" ry="5"/>
+    <ellipse cx="220" cy="177" rx="3" ry="6"/>
+    <ellipse cx="235" cy="176" rx="2.5" ry="5"/>
+  </g>
+  
+  <!-- 太阳/月亮 -->
+  <circle cx="250" cy="50" r="20" fill="#F4D03F" opacity="0.3"/>
+  <circle cx="250" cy="50" r="15" fill="#F7DC6F" opacity="0.2"/>
+  
+  <!-- 飞鸟 -->
+  <g stroke="#1B4B6F" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M200 60 Q205 55 210 60"/>
+    <path d="M220 70 Q225 65 230 70"/>
+    <path d="M180 80 Q183 77 186 80"/>
+  </g>
+  
+  <!-- 装饰边框线 -->
+  <rect x="10" y="10" width="280" height="180" stroke="#1B4B6F" stroke-width="0.5" fill="none" opacity="0.2"/>
+</svg>

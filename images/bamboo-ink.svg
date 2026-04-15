@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" fill="none">
+  <!-- 水墨竹子 - 国画风格 -->
+  <defs>
+    <linearGradient id="bambooGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="50%" style="stop-color:#2C3E50"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="bambooGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2C3E50"/>
+      <stop offset="50%" style="stop-color:#4a5f7a"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 主竹干 - 墨色浓淡 -->
+  <path d="M95 380 Q100 300 98 250 Q96 200 100 150 Q104 100 102 50 Q101 25 100 10" 
+        stroke="url(#bambooGrad1)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- 竹干内部纹理 - 飞白效果 -->
+  <path d="M98 375 Q102 300 100 250 Q98 200 102 150 Q106 100 104 50" 
+        stroke="#4a5f7a" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- 竹节 -->
+  <g stroke="#1a1a1a" stroke-width="3" fill="none">
+    <path d="M92 80 Q100 82 108 80"/>
+    <path d="M94 140 Q100 142 106 140"/>
+    <path d="M96 200 Q100 202 104 200"/>
+    <path d="M97 260 Q100 262 103 260"/>
+    <path d="M96 320 Q100 322 104 320"/>
+  </g>
+  
+  <!-- 侧枝竹干 -->
+  <path d="M100 140 Q130 120 145 100 Q155 85 150 60" 
+        stroke="url(#bambooGrad2)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M100 200 Q70 180 55 160 Q45 145 50 120" 
+        stroke="url(#bambooGrad2)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M102 260 Q135 240 150 220" 
+        stroke="url(#bambooGrad2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 侧枝竹节 -->
+  <g stroke="#2C3E50" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M130 115 Q138 113 142 110"/>
+    <path d="M65 175 Q72 173 75 170"/>
+    <path d="M125 245 Q132 243 135 240"/>
+  </g>
+  
+  <!-- 竹叶组1 - 浓墨 -->
+  <g fill="#1a1a1a" opacity="0.9">
+    <path d="M145 60 Q160 50 175 55 Q165 65 150 70 Q140 68 145 60"/>
+    <path d="M150 70 Q170 65 185 75 Q170 80 155 78 Q145 75 150 70"/>
+    <path d="M140 75 Q155 85 165 95 Q150 90 138 82 Q135 78 140 75"/>
+  </g>
+  
+  <!-- 竹叶组2 - 中墨 -->
+  <g fill="#2C3E50" opacity="0.7">
+    <path d="M50 120 Q35 110 20 115 Q30 125 45 130 Q55 128 50 120"/>
+    <path d="M45 130 Q25 125 10 135 Q25 140 40 138 Q50 135 45 130"/>
+    <path d="M55 135 Q40 145 30 155 Q45 150 57 142 Q60 138 55 135"/>
+  </g>
+  
+  <!-- 竹叶组3 - 淡墨 -->
+  <g fill="#4a5f7a" opacity="0.5">
+    <path d="M150 220 Q170 210 190 215 Q175 225 155 230 Q145 228 150 220"/>
+    <path d="M155 230 Q180 225 200 235 Q180 240 160 238 Q150 235 155 230"/>
+  </g>
+  
+  <!-- 竹叶组4 - 顶部 -->
+  <g fill="#1a1a1a" opacity="0.85">
+    <path d="M100 10 Q115 0 130 5 Q120 15 105 20 Q95 18 100 10"/>
+    <path d="M95 15 Q80 5 65 10 Q75 20 90 25 Q100 23 95 15"/>
+    <path d="M102 20 Q120 25 135 35 Q120 30 105 28 Q100 25 102 20"/>
+  </g>
+  
+  <!-- 嫩叶 - 淡墨 -->
+  <g fill="#5D6D7E" opacity="0.4">
+    <path d="M100 10 Q105 -5 110 -10 Q108 0 105 12"/>
+    <path d="M145 100 Q155 90 165 85 Q158 95 150 105"/>
+    <path d="M55 160 Q45 150 35 145 Q42 155 50 165"/>
+  </g>
+  
+  <!-- 墨点装饰 -->
+  <g fill="#2C3E50" opacity="0.3">
+    <ellipse cx="120" cy="300" rx="3" ry="2"/>
+    <ellipse cx="80" cy="350" rx="2" ry="1.5"/>
+    <ellipse cx="140" cy="180" rx="2.5" ry="2"/>
+    <ellipse cx="60" cy="200" rx="2" ry="1.5"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" fill="none">
+  <!-- 希腊风格海浪 - 古典波浪 -->
+  <defs>
+    <linearGradient id="greekWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B4B6F"/>
+      <stop offset="50%" style="stop-color:#2E6B8A"/>
+      <stop offset="100%" style="stop-color:#1B4B6F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 底层波浪 - 优雅曲线 -->
+  <path d="M0 60 Q50 40 100 55 Q150 70 200 50 Q250 30 300 50 Q350 70 400 55 L400 100 L0 100 Z" 
+        fill="url(#greekWaveGrad)" opacity="0.3"/>
+  
+  <!-- 中层波浪 -->
+  <path d="M0 70 Q40 50 80 65 Q120 80 160 60 Q200 40 240 55 Q280 70 320 50 Q360 30 400 45 L400 100 L0 100 Z" 
+        fill="url(#greekWaveGrad)" opacity="0.5"/>
+  
+  <!-- 主波浪 - 古典优雅 -->
+  <path d="M0 80 Q30 60 60 75 Q90 90 120 70 Q150 50 180 65 Q210 80 240 60 Q270 40 300 55 Q330 70 360 50 Q390 30 400 40" 
+        stroke="#1B4B6F" stroke-width="2.5" fill="none"/>
+  
+  <!-- 波浪顶部装饰线 -->
+  <path d="M0 78 Q30 58 60 73 Q90 88 120 68 Q150 48 180 63 Q210 78 240 58 Q270 38 300 53 Q330 68 360 48 Q390 28 400 38" 
+        stroke="#2E6B8A" stroke-width="1" fill="none" opacity="0.7"/>
+  
+  <!-- 泡沫点缀 -->
+  <g fill="#FFF" opacity="0.6">
+    <circle cx="30" cy="70" r="2"/>
+    <circle cx="60" cy="78" r="1.5"/>
+    <circle cx="90" cy="85" r="2"/>
+    <circle cx="120" cy="72" r="1.5"/>
+    <circle cx="150" cy="60" r="2"/>
+    <circle cx="180" cy="68" r="1.5"/>
+    <circle cx="210" cy="78" r="2"/>
+    <circle cx="240" cy="62" r="1.5"/>
+    <circle cx="270" cy="48" r="2"/>
+    <circle cx="300" cy="58" r="1.5"/>
+    <circle cx="330" cy="68" r="2"/>
+    <circle cx="360" cy="52" r="1.5"/>
+    <circle cx="390" cy="38" r="2"/>
+  </g>
+  
+  <!-- 古典装饰性涡旋 -->
+  <g stroke="#1B4B6F" stroke-width="1.5" fill="none" opacity="0.6">
+    <!-- 涡旋1 -->
+    <path d="M45 68 Q50 62 55 68 Q60 74 55 80"/>
+    <!-- 涡旋2 -->
+    <path d="M135 62 Q140 56 145 62 Q150 68 145 74"/>
+    <!-- 涡旋3 -->
+    <path d="M225 58 Q230 52 235 58 Q240 64 235 70"/>
+    <!-- 涡旋4 -->
+    <path d="M315 52 Q320 46 325 52 Q330 58 325 64"/>
+  </g>
+  
+  <!-- 优雅曲线装饰 -->
+  <path d="M10 85 Q50 75 90 82 Q130 89 170 78 Q210 67 250 76 Q290 85 330 72 Q370 59 390 65" 
+        stroke="#2E6B8A" stroke-width="0.8" fill="none" opacity="0.4"/>
+</svg>

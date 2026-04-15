@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
+  <!-- 祥云图案 - 中国传统祥云 -->
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F4D03F"/>
+      <stop offset="50%" style="stop-color:#F7DC6F"/>
+      <stop offset="100%" style="stop-color:#F4D03F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 祥云1 - 左侧 -->
+  <g transform="translate(0, 10)">
+    <!-- 云身 -->
+    <path d="M10 50 Q15 35 30 38 Q40 25 55 30 Q65 20 80 25 Q90 15 105 20 Q115 25 110 40 Q120 45 115 55 Q110 65 95 62 Q85 70 70 65 Q55 72 40 65 Q25 70 15 60 Q5 65 10 50" 
+          fill="url(#cloudGrad)" opacity="0.9"/>
+    <!-- 云纹装饰 -->
+    <path d="M25 45 Q30 40 40 42 Q50 38 60 42" 
+          stroke="#D4AC0D" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M70 40 Q80 35 90 38" 
+          stroke="#D4AC0D" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- 祥云2 - 中间 -->
+  <g transform="translate(60, 0)">
+    <path d="M15 55 Q20 40 35 42 Q45 30 60 35 Q70 25 85 30 Q95 22 110 28 Q120 35 115 48 Q125 52 120 62 Q115 72 100 68 Q90 75 75 70 Q60 76 45 70 Q30 74 20 65 Q10 68 15 55" 
+          fill="url(#cloudGrad)" opacity="0.85"/>
+    <path d="M35 50 Q45 45 55 48 Q65 44 75 48" 
+          stroke="#D4AC0D" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- 祥云3 - 右侧 -->
+  <g transform="translate(120, 15)">
+    <path d="M10 48 Q15 33 30 36 Q40 24 55 29 Q65 19 80 24 Q90 18 100 25 Q108 32 103 45 Q112 50 107 58 Q102 66 88 63 Q78 69 64 64 Q50 70 36 64 Q22 68 13 59 Q5 62 10 48" 
+          fill="url(#cloudGrad)" opacity="0.9"/>
+    <path d="M25 43 Q35 38 45 41 Q55 37 65 41" 
+          stroke="#D4AC0D" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- 连接云纹 -->
+  <g stroke="#F4D03F" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M50 45 Q55 40 60 42"/>
+    <path d="M110 50 Q115 45 120 47"/>
+  </g>
+  
+  <!-- 小祥云装饰 -->
+  <g fill="#F7DC6F" opacity="0.5">
+    <ellipse cx="30" cy="75" rx="15" ry="8"/>
+    <ellipse cx="170" cy="70" rx="12" ry="6"/>
+  </g>
+  
+  <!-- 卷曲装饰 -->
+  <g stroke="#D4AC0D" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M20 55 Q15 60 20 65 Q25 70 30 65"/>
+    <path d="M90 50 Q85 55 90 60 Q95 65 100 60"/>
+    <path d="M160 58 Q155 63 160 68 Q165 73 170 68"/>
+  </g>
+  
+  <!-- 云尾 -->
+  <g stroke="#F4D03F" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M5 52 Q0 50 3 45"/>
+    <path d="M195 55 Q200 52 197 48"/>
+  </g>
+</svg>

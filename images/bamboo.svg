@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 600" width="200" height="600">
+  <!-- Background -->
+  <rect width="200" height="600" fill="#FAF9F6"/>
+  
+  <!-- Main bamboo stalk -->
+  <g stroke="#5A8F7B" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Bamboo segments -->
+    <line x1="100" y1="50" x2="100" y2="120"/>
+    <line x1="100" y1="125" x2="100" y2="200"/>
+    <line x1="100" y1="205" x2="100" y2="280"/>
+    <line x1="100" y1="285" x2="100" y2="360"/>
+    <line x1="100" y1="365" x2="100" y2="440"/>
+    <line x1="100" y1="445" x2="100" y2="520"/>
+    <line x1="100" y1="525" x2="100" y2="580"/>
+  </g>
+  
+  <!-- Bamboo joints/nodes -->
+  <g fill="none" stroke="#5A8F7B" stroke-width="4" stroke-linecap="round">
+    <line x1="85" y1="120" x2="115" y2="120"/>
+    <line x1="85" y1="200" x2="115" y2="200"/>
+    <line x1="85" y1="280" x2="115" y2="280"/>
+    <line x1="85" y1="360" x2="115" y2="360"/>
+    <line x1="85" y1="440" x2="115" y2="440"/>
+    <line x1="85" y1="520" x2="115" y2="520"/>
+  </g>
+  
+  <!-- Bamboo segments fill -->
+  <g fill="#5A8F7B" opacity="0.1">
+    <rect x="88" y="50" width="24" height="70" rx="2"/>
+    <rect x="88" y="125" width="24" height="75" rx="2"/>
+    <rect x="88" y="205" width="24" height="75" rx="2"/>
+    <rect x="88" y="285" width="24" height="75" rx="2"/>
+    <rect x="88" y="365" width="24" height="75" rx="2"/>
+    <rect x="88" y="445" width="24" height="75" rx="2"/>
+    <rect x="88" y="525" width="24" height="55" rx="2"/>
+  </g>
+  
+  <!-- Side bamboo stalk - thinner -->
+  <g stroke="#5A8F7B" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6">
+    <line x1="150" y1="100" x2="150" y2="160"/>
+    <line x1="150" y1="165" x2="150" y2="230"/>
+    <line x1="150" y1="235" x2="150" y2="300"/>
+    <line x1="150" y1="305" x2="150" y2="370"/>
+    <line x1="150" y1="375" x2="150" y2="440"/>
+  </g>
+  
+  <!-- Side bamboo joints -->
+  <g fill="none" stroke="#5A8F7B" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <line x1="140" y1="160" x2="160" y2="160"/>
+    <line x1="140" y1="230" x2="160" y2="230"/>
+    <line x1="140" y1="300" x2="160" y2="300"/>
+    <line x1="140" y1="370" x2="160" y2="370"/>
+    <line x1="140" y1="440" x2="160" y2="440"/>
+  </g>
+  
+  <!-- Bamboo leaves -->
+  <g fill="#5A8F7B" opacity="0.8">
+    <!-- Leaf 1 -->
+    <path d="M100,120 Q130,100 150,110 Q130,115 100,125 Z"/>
+    <!-- Leaf 2 -->
+    <path d="M100,200 Q70,180 50,190 Q70,195 100,205 Z"/>
+    <!-- Leaf 3 -->
+    <path d="M100,280 Q140,260 160,270 Q140,275 100,285 Z"/>
+    <!-- Leaf 4 -->
+    <path d="M100,360 Q60,340 40,350 Q60,355 100,365 Z"/>
+    <!-- Leaf 5 -->
+    <path d="M100,440 Q135,420 155,430 Q135,435 100,445 Z"/>
+    <!-- Leaf 6 -->
+    <path d="M100,520 Q75,500 55,510 Q75,515 100,525 Z"/>
+  </g>
+  
+  <!-- Additional small leaves on side stalk -->
+  <g fill="#5A8F7B" opacity="0.5">
+    <path d="M150,160 Q170,145 185,152 Q170,156 150,165 Z"/>
+    <path d="M150,230 Q130,215 115,222 Q130,226 150,235 Z"/>
+    <path d="M150,300 Q175,285 190,292 Q175,296 150,305 Z"/>
+  </g>
+  
+  <!-- Decorative grass at bottom -->
+  <g stroke="#5A8F7B" stroke-width="1.5" fill="none" opacity="0.4">
+    <path d="M60,580 Q55,560 50,570"/>
+    <path d="M70,580 Q75,555 80,565"/>
+    <path d="M130,580 Q125,560 120,570"/>
+    <path d="M140,580 Q145,555 150,565"/>
+  </g>
+</svg>

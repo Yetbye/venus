@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FAF9F6"/>
+  
+  <!-- Single line music/headphones illustration -->
+  <g fill="none" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Headphones - continuous flowing line -->
+    <path d="M120,200 
+             C120,120 160,80 200,80 
+             C240,80 280,120 280,200
+             L280,220
+             C280,235 270,245 260,245
+             L255,245
+             C245,245 240,235 240,220
+             L240,200
+             C240,140 225,110 200,110
+             C175,110 160,140 160,200
+             L160,220
+             C160,235 155,245 145,245
+             L140,245
+             C130,245 120,235 120,220
+             Z"/>
+    
+    <!-- Music note 1 -->
+    <path d="M300,150 
+             L300,100 
+             L340,85 
+             L340,135
+             M300,150 
+             C300,165 290,175 280,175 
+             C270,175 265,165 265,155 
+             C265,145 275,140 285,140 
+             L300,140"/>
+    
+    <!-- Music note 2 -->
+    <path d="M340,135 
+             C340,150 330,160 320,160 
+             C310,160 305,150 305,140 
+             C305,130 315,125 325,125 
+             L340,120"/>
+    
+    <!-- Sound waves -->
+    <path d="M80,180 Q70,200 80,220" stroke-width="2"/>
+    <path d="M65,170 Q50,200 65,230" stroke-width="2"/>
+    <path d="M50,160 Q30,200 50,240" stroke-width="2"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="350" cy="300" r="25" fill="none" stroke="#E85D4E" stroke-width="1" opacity="0.3"/>
+  <line x1="70" y1="300" x2="110" y2="300" stroke="#1B4B6F" stroke-width="2" opacity="0.4"/>
+  <line x1="80" y1="315" x2="100" y2="315" stroke="#1B4B6F" stroke-width="1.5" opacity="0.3"/>
+</svg>

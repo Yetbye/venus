@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#FAF9F6"/>
+  
+  <!-- Outer circle -->
+  <circle cx="150" cy="150" r="140" fill="none" stroke="#E85D4E" stroke-width="3"/>
+  
+  <!-- Second circle -->
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#E85D4E" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Third circle -->
+  <circle cx="150" cy="150" r="100" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  
+  <!-- Inner circle -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#F4D03F" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Center filled circle -->
+  <circle cx="150" cy="150" r="60" fill="#E85D4E" opacity="0.1"/>
+  <circle cx="150" cy="150" r="40" fill="none" stroke="#E85D4E" stroke-width="2"/>
+  
+  <!-- Radiating lines -->
+  <g stroke="#E85D4E" stroke-width="1.5" opacity="0.6">
+    <line x1="150" y1="10" x2="150" y2="50"/>
+    <line x1="150" y1="290" x2="150" y2="250"/>
+    <line x1="10" y1="150" x2="50" y2="150"/>
+    <line x1="290" y1="150" x2="250" y2="150"/>
+    
+    <!-- Diagonal lines -->
+    <line x1="51" y1="51" x2="80" y2="80"/>
+    <line x1="249" y1="51" x2="220" y2="80"/>
+    <line x1="51" y1="249" x2="80" y2="220"/>
+    <line x1="249" y1="249" x2="220" y2="220"/>
+  </g>
+  
+  <!-- Additional radiating lines at 45 degrees -->
+  <g stroke="#F4D03F" stroke-width="1" opacity="0.5">
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(22.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(67.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(112.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(157.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(202.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(247.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(292.5, 150, 150)"/>
+    <line x1="150" y1="10" x2="150" y2="30" transform="rotate(337.5, 150, 150)"/>
+  </g>
+  
+  <!-- Decorative dots at intersections -->
+  <circle cx="150" cy="30" r="4" fill="#F4D03F"/>
+  <circle cx="150" cy="270" r="4" fill="#F4D03F"/>
+  <circle cx="30" cy="150" r="4" fill="#F4D03F"/>
+  <circle cx="270" cy="150" r="4" fill="#F4D03F"/>
+  
+  <!-- Center dot -->
+  <circle cx="150" cy="150" r="8" fill="#E85D4E"/>
+  <circle cx="150" cy="150" r="4" fill="#F4D03F"/>
+</svg>

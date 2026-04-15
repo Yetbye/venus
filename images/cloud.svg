@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4D4CF;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="#FAF9F6"/>
+  
+  <!-- Large flowing cloud - Japanese style -->
+  <path d="M50,200 
+           C80,180 120,190 150,170 
+           C180,150 220,160 260,140 
+           C300,120 350,130 400,115 
+           C450,100 500,110 550,95 
+           C600,80 650,90 700,75 
+           C740,65 780,75 800,70
+           L800,150 
+           C760,160 720,150 680,165 
+           C640,180 600,170 560,185 
+           C520,200 480,190 440,205 
+           C400,220 360,210 320,225 
+           C280,240 240,230 200,245 
+           C160,260 120,250 80,265 
+           C50,275 20,265 0,270
+           L0,220 
+           C20,215 35,210 50,200 Z" 
+        fill="url(#cloudGrad)" opacity="0.9"/>
+  
+  <!-- Second cloud layer -->
+  <path d="M100,250 
+           C130,230 170,240 200,220 
+           C240,200 280,210 320,195 
+           C360,180 400,190 440,175 
+           C480,160 520,170 560,160 
+           C600,150 640,160 680,150 
+           C720,140 760,150 800,145
+           L800,200 
+           C760,210 720,200 680,215 
+           C640,230 600,220 560,235 
+           C520,250 480,240 440,255 
+           C400,270 360,260 320,275 
+           C280,290 240,280 200,290 
+           C160,300 120,290 80,295 
+           C50,300 20,290 0,295
+           L0,260 
+           C30,255 65,260 100,250 Z" 
+        fill="#E8E8E5" opacity="0.6"/>
+  
+  <!-- Flowing lines - wind effect -->
+  <path d="M150,180 Q250,160 350,170 T550,160 T750,150" 
+        fill="none" stroke="#D4D4CF" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M200,230 Q300,210 400,220 T600,210 T750,200" 
+        fill="none" stroke="#D4D4CF" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Decorative swirls -->
+  <path d="M300,150 Q320,130 340,150 Q360,170 380,150" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M500,130 Q520,110 540,130 Q560,150 580,130" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M650,110 Q670,90 690,110 Q710,130 730,110" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+</svg>

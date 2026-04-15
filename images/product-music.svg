@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 麦克风主体 -->
+  <rect x="185" y="100" width="30" height="80" rx="15" fill="none" stroke="#E85D4E" stroke-width="2"/>
+  
+  <!-- 麦克风网罩纹理 -->
+  <line x1="192" y1="110" x2="208" y2="110" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="120" x2="208" y2="120" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="130" x2="208" y2="130" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="140" x2="208" y2="140" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="150" x2="208" y2="150" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  <line x1="192" y1="160" x2="208" y2="160" stroke="#E85D4E" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 麦克风支架 -->
+  <path d="M185 170 Q170 180 170 200 L170 240" fill="none" stroke="#E85D4E" stroke-width="2"/>
+  <path d="M215 170 Q230 180 230 200 L230 240" fill="none" stroke="#E85D4E" stroke-width="2"/>
+  <line x1="170" y1="240" x2="230" y2="240" stroke="#E85D4E" stroke-width="2"/>
+  <line x1="200" y1="180" x2="200" y2="240" stroke="#E85D4E" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 音符 1 -->
+  <path d="M260 140 Q260 120 280 120 L280 160" fill="none" stroke="#E85D4E" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="270" cy="165" rx="12" ry="8" fill="none" stroke="#E85D4E" stroke-width="1.5" transform="rotate(-20 270 165)"/>
+  
+  <!-- 音符 2 -->
+  <path d="M300 120 Q300 100 320 100 L320 140" fill="none" stroke="#E85D4E" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="310" cy="145" rx="12" ry="8" fill="none" stroke="#E85D4E" stroke-width="1.5" transform="rotate(-20 310 145)"/>
+  
+  <!-- 音符 3 -->
+  <path d="M100 160 Q100 140 120 140 L120 180" fill="none" stroke="#E85D4E" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="110" cy="185" rx="12" ry="8" fill="none" stroke="#E85D4E" stroke-width="1.5" transform="rotate(-20 110 185)"/>
+  
+  <!-- 声波线条 -->
+  <path d="M80 200 Q100 180 120 200 T160 200" fill="none" stroke="#E85D4E" stroke-width="1.5" opacity="0.6"/>
+  <path d="M80 220 Q100 200 120 220 T160 220" fill="none" stroke="#E85D4E" stroke-width="1.5" opacity="0.6"/>
+  <path d="M240 200 Q260 180 280 200 T320 200" fill="none" stroke="#E85D4E" stroke-width="1.5" opacity="0.6"/>
+  <path d="M240 220 Q260 200 280 220 T320 220" fill="none" stroke="#E85D4E" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 圆形声波 -->
+  <circle cx="200" cy="300" r="40" fill="none" stroke="#E85D4E" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="200" cy="300" r="55" fill="none" stroke="#E85D4E" stroke-width="1" opacity="0.3"/>
+  <circle cx="200" cy="300" r="70" fill="none" stroke="#E85D4E" stroke-width="1" opacity="0.2"/>
+  
+  <!-- 装饰点 -->
+  <circle cx="140" cy="100" r="3" fill="#E85D4E" opacity="0.4"/>
+  <circle cx="340" cy="180" r="3" fill="#E85D4E" opacity="0.4"/>
+  <circle cx="60" cy="280" r="3" fill="#E85D4E" opacity="0.4"/>
+</svg>

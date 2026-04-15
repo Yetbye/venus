@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="chatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fc"/>
+      <stop offset="50%" style="stop-color:#eef1f6"/>
+      <stop offset="100%" style="stop-color:#e4e8f0"/>
+    </linearGradient>
+    <linearGradient id="userBubble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90d9"/>
+      <stop offset="100%" style="stop-color:#357abd"/>
+    </linearGradient>
+    <linearGradient id="aiBubble" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff"/>
+      <stop offset="100%" style="stop-color:#f5f7fa"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#chatBg)"/>
+  <g filter="url(#shadow)">
+    <rect x="20" y="15" width="360" height="270" rx="16" fill="#fff"/>
+  </g>
+  <rect x="20" y="15" width="360" height="45" rx="16" fill="#f0f3f8"/>
+  <rect x="20" y="45" width="360" height="15" fill="#f0f3f8"/>
+  <circle cx="50" cy="38" r="14" fill="#4a90d9"/>
+  <text x="50" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">🤖</text>
+  <text x="75" y="42" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#2c3e50">AI 智能客服</text>
+  <circle cx="350" cy="38" r="5" fill="#00d4aa"/>
+  <g opacity="0.9">
+    <path d="M40 85 L130 85 Q140 85 140 95 L140 120 Q140 128 132 130 L125 131 L122 140 L118 131 L40 131 Q30 131 30 121 L30 95 Q30 85 40 85 Z" fill="url(#userBubble)"/>
+    <text x="45" y="104" font-family="Arial, sans-serif" font-size="11" fill="#fff">您好，想了解产品详情</text>
+    <text x="45" y="120" font-family="Arial, sans-serif" font-size="11" fill="#fff">和价格吗？</text>
+    <path d="M260 145 L370 145 Q380 145 380 155 L380 185 Q380 195 370 195 L278 195 L274 205 L269 195 L260 195 Q250 195 250 185 L250 155 Q250 145 260 145 Z" fill="url(#aiBubble)" stroke="#e8ecf2" stroke-width="1"/>
+    <text x="258" y="164" font-family="Arial, sans-serif" font-size="11" fill="#34495e">您好！很高兴为您服务</text>
+    <text x="258" y="180" font-family="Arial, sans-serif" font-size="11" fill="#34495e">请问有什么可以帮您？</text>
+    <path d="M40 210 L160 210 Q170 210 170 220 L170 245 Q170 255 162 256 L154 258 L151 267 L146 258 L40 258 Q30 258 30 248 L30 220 Q30 210 40 210 Z" fill="url(#userBubble)"/>
+    <text x="45" y="229" font-family="Arial, sans-serif" font-size="11" fill="#fff">我想咨询数字人定制</text>
+    <text x="45" y="245" font-family="Arial, sans-serif" font-size="11" fill="#fff">服务的具体流程</text>
+    <path d="M260 215 L365 215 Q373 215 373 223 L373 248 Q373 256 366 257 L359 258 L356 267 L351 258 L260 258 Q252 258 252 250 L252 223 Q252 215 260 215 Z" fill="url(#aiBubble)" stroke="#e8ecf2" stroke-width="1"/>
+    <text x="258" y="233" font-family="Arial, sans-serif" font-size="11" fill="#34495e">好的！我们的流程包括：</text>
+    <text x="258" y="249" font-family="Arial, sans-serif" font-size="11" fill="#4a90d9">需求沟通 → 形象设计 → 训练</text>
+  </g>
+</svg>

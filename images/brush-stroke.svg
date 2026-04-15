@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <!-- 毛笔笔触 - 书法飞白效果 -->
+  <defs>
+    <linearGradient id="inkGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="50%" style="stop-color:#2C3E50"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="inkGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2C3E50"/>
+      <stop offset="50%" style="stop-color:#4a5f7a"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 横画 - 一 -->
+  <g transform="translate(20, 30)">
+    <!-- 主笔画 -->
+    <path d="M0 10 Q50 8 100 10 Q150 12 200 10 Q250 8 300 10 Q350 12 360 10" 
+          stroke="url(#inkGrad1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- 飞白效果 -->
+    <path d="M20 8 Q70 6 120 8 M180 12 Q230 10 280 12 M320 8 Q340 10 350 8" 
+          stroke="#FFF" stroke-width="2" fill="none" opacity="0.3"/>
+    <!-- 起笔装饰 -->
+    <ellipse cx="5" cy="10" rx="8" ry="10" fill="#1a1a1a"/>
+    <!-- 收笔 -->
+    <path d="M355 10 Q365 8 360 15 Q355 18 350 12" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- 竖画 - 丨 -->
+  <g transform="translate(50, 60)">
+    <path d="M15 0 Q18 30 15 60 Q12 90 15 120" 
+          stroke="url(#inkGrad1)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M12 20 Q15 50 12 80 M18 40 Q15 70 18 100" 
+          stroke="#FFF" stroke-width="2" fill="none" opacity="0.25"/>
+    <!-- 起笔 -->
+    <ellipse cx="15" cy="3" rx="10" ry="8" fill="#1a1a1a"/>
+    <!-- 收笔 -->
+    <path d="M15 118 Q12 125 20 122 Q22 118 18 115" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- 撇画 - 丿 -->
+  <g transform="translate(100, 60)">
+    <path d="M30 5 Q25 35 15 65 Q5 95 0 115" 
+          stroke="url(#inkGrad2)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M25 25 Q18 50 10 80 M20 45 Q12 75 5 100" 
+          stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <!-- 起笔 -->
+    <ellipse cx="28" cy="8" rx="8" ry="6" fill="#2C3E50"/>
+    <!-- 收笔飞白 -->
+    <path d="M2 110 Q-2 118 5 115" stroke="#2C3E50" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- 捺画 - ㇏ -->
+  <g transform="translate(150, 60)">
+    <path d="M5 10 Q15 40 35 70 Q55 100 75 115" 
+          stroke="url(#inkGrad2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M15 30 Q30 55 45 80 M35 60 Q50 85 60 100" 
+          stroke="#FFF" stroke-width="2" fill="none" opacity="0.25"/>
+    <!-- 起笔 -->
+    <ellipse cx="6" cy="12" rx="7" ry="8" fill="#2C3E50"/>
+    <!-- 收笔 -->
+    <path d="M70 110 Q80 118 75 120 Q68 118 72 112" fill="#2C3E50"/>
+  </g>
+  
+  <!-- 点画 - 丶 -->
+  <g transform="translate(250, 70)">
+    <path d="M10 5 Q15 15 8 25 Q2 20 5 10 Q8 2 10 5" 
+          fill="#1a1a1a"/>
+    <!-- 飞白 -->
+    <path d="M8 8 Q10 12 6 18" stroke="#FFF" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+  
+  <!-- 挑画 - ㇀ -->
+  <g transform="translate(280, 85)">
+    <path d="M5 20 Q20 15 40 8 Q55 3 65 2" 
+          stroke="url(#inkGrad1)" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M20 16 Q35 10 50 6" stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.3"/>
+    <!-- 起笔 -->
+    <ellipse cx="7" cy="18" rx="6" ry="7" fill="#1a1a1a"/>
+    <!-- 收笔 -->
+    <path d="M62 3 Q68 2 65 6 Q60 7 63 4" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- 钩画 - 亅 -->
+  <g transform="translate(350, 60)">
+    <path d="M10 0 Q13 40 10 80 Q8 100 20 95" 
+          stroke="url(#inkGrad2)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M8 25 Q11 55 8 85" stroke="#FFF" stroke-width="2" fill="none" opacity="0.25"/>
+    <!-- 起笔 -->
+    <ellipse cx="10" cy="4" rx="8" ry="6" fill="#2C3E50"/>
+    <!-- 钩 -->
+    <path d="M8 98 Q15 102 22 95 Q18 92 12 95" fill="#2C3E50"/>
+  </g>
+  
+  <!-- 折画 - 𠃍 -->
+  <g transform="translate(20, 140)">
+    <path d="M5 10 Q50 8 90 10 Q95 40 92 70" 
+          stroke="url(#inkGrad1)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- 飞白 -->
+    <path d="M25 9 Q60 7 85 9 M90 30 Q88 50 90 65" 
+          stroke="#FFF" stroke-width="2" fill="none" opacity="0.25"/>
+    <!-- 起笔 -->
+    <ellipse cx="7" cy="10" rx="7" ry="8" fill="#1a1a1a"/>
+    <!-- 转角 -->
+    <ellipse cx="91" cy="12" rx="6" ry="8" fill="#1a1a1a"/>
+    <!-- 收笔 -->
+    <path d="M90 68 Q88 75 95 72" stroke="#1a1a1a" stroke-width="5" fill="none"/>
+  </g>
+  
+  <!-- 墨点飞溅效果 -->
+  <g fill="#2C3E50" opacity="0.2">
+    <ellipse cx="180" cy="45" rx="2" ry="1.5"/>
+    <ellipse cx="220" cy="160" rx="1.5" ry="2"/>
+    <ellipse cx="380" cy="130" rx="2" ry="1"/>
+    <ellipse cx="40" cy="185" rx="1" ry="1.5"/>
+    <ellipse cx="300" cy="50" rx="1.5" ry="1"/>
+  </g>
+  
+  <!-- 淡墨渲染 -->
+  <ellipse cx="200" cy="100" rx="150" ry="40" fill="#2C3E50" opacity="0.05"/>
+</svg>

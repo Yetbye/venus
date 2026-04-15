@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B4B6F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E6B8F;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E6B8F;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4A8BB0;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#FAF9F6"/>
+  
+  <!-- Back wave layer -->
+  <path d="M0,280 
+           Q100,240 200,260 T400,250 T600,270 T800,240 T1000,260 T1200,250
+           L1200,400 L0,400 Z" 
+        fill="url(#waveGrad2)" opacity="0.6"/>
+  
+  <!-- Middle wave layer -->
+  <path d="M0,300 
+           Q150,250 300,280 T600,260 T900,280 T1200,260
+           L1200,400 L0,400 Z" 
+        fill="url(#waveGrad1)" opacity="0.8"/>
+  
+  <!-- Main wave - Hokusai style -->
+  <path d="M0,320 
+           C80,310 120,280 180,290 
+           C240,300 280,340 340,330 
+           C400,320 440,260 500,270 
+           C560,280 600,350 660,340 
+           C720,330 760,250 820,260 
+           C880,270 920,360 980,350 
+           C1040,340 1080,240 1140,250 
+           C1180,255 1200,280 1200,300
+           L1200,400 L0,400 Z" 
+        fill="#1B4B6F"/>
+  
+  <!-- Wave crest details - claw-like peaks -->
+  <path d="M180,290 Q200,270 220,290 Q240,310 260,295 Q280,280 300,300" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <path d="M500,270 Q530,240 560,270 Q590,300 620,280" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <path d="M820,260 Q860,220 900,260 Q940,300 980,280" 
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  
+  <!-- Foam details -->
+  <ellipse cx="200" cy="305" rx="25" ry="8" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="520" cy="285" rx="30" ry="10" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="860" cy="275" rx="35" ry="12" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Small wave lines -->
+  <path d="M100,350 Q150,340 200,350" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <path d="M400,360 Q450,350 500,360" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <path d="M700,355 Q750,345 800,355" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <path d="M950,350 Q1000,340 1050,350" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+</svg>

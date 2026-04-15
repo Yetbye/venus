@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 远山轮廓 - 浮世绘风格 -->
+  <path d="M50 280 Q100 200 150 240 Q200 180 250 220 Q300 160 350 200 L350 320 L50 320 Z" fill="none" stroke="#1B4B6F" stroke-width="2"/>
+  <path d="M80 280 Q120 230 160 260 Q200 220 240 250 Q280 210 320 240" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 富士山风格山峰 -->
+  <path d="M150 280 L200 120 L250 280" fill="none" stroke="#1B4B6F" stroke-width="2"/>
+  <path d="M175 200 L200 120 L225 200" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  <!-- 山顶积雪线 -->
+  <path d="M175 200 Q200 190 225 200" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- 传统塔/建筑 -->
+  <rect x="280" y="180" width="40" height="100" fill="none" stroke="#1B4B6F" stroke-width="2"/>
+  <!-- 塔檐 -->
+  <path d="M270 180 L330 180 L320 170 L280 170 Z" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <path d="M275 150 L325 150 L315 140 L285 140 Z" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <path d="M280 120 L320 120 L300 100 Z" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <!-- 塔窗 -->
+  <rect x="290" y="200" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <rect x="302" y="200" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <rect x="290" y="220" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <rect x="302" y="220" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <rect x="290" y="240" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <rect x="302" y="240" width="8" height="12" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 太阳/月亮 - 暖黄 -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#F4D03F" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 云朵 - 浮世绘风格 -->
+  <path d="M60 80 Q80 60 100 80 Q120 60 140 80" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  <path d="M250 90 Q270 70 290 90 Q310 70 330 90" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 水波纹 -->
+  <path d="M50 300 Q80 295 110 300 Q140 305 170 300" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.4"/>
+  <path d="M200 300 Q230 295 260 300 Q290 305 320 300" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.4"/>
+  <path d="M80 315 Q110 310 140 315 Q170 320 200 315" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.4"/>
+  <path d="M230 315 Q260 310 290 315 Q320 320 350 315" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.4"/>
+  
+  <!-- 飞鸟 -->
+  <path d="M120 140 Q130 135 140 140" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.5"/>
+  <path d="M130 145 L130 150" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.5"/>
+  <path d="M160 120 Q170 115 180 120" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.5"/>
+  <path d="M170 125 L170 130" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 树木 -->
+  <path d="M70 260 L70 290" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <circle cx="70" cy="250" r="15" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 装饰点 -->
+  <circle cx="40" cy="200" r="3" fill="#F4D03F" opacity="0.4"/>
+  <circle cx="360" cy="280" r="3" fill="#F4D03F" opacity="0.4"/>
+</svg>

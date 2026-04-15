@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="eduBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf6f0"/>
+      <stop offset="50%" style="stop-color:#f5ede0"/>
+      <stop offset="100%" style="stop-color:#efe5d4"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c49a48"/>
+      <stop offset="50%" style="stop-color:#a67c30"/>
+      <stop offset="100%" style="stop-color:#8b6528"/>
+    </linearGradient>
+    <radialGradient id="eduGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:0.18"/>
+      <stop offset="60%" style="stop-color:#e8b84a;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#faf6f0;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="bookShadow">
+      <feDropShadow dx="3" dy="5" stdDeviation="6" flood-opacity="0.15"/>
+    </filter>
+    <filter id="lightRays">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#eduBg)"/>
+  <ellipse cx="200" cy="140" rx="170" ry="130" fill="url(#eduGlow)"/>
+  <g filter="url(#lightRays)" opacity="0.08">
+    <polygon points="200,20 160,180 240,180" fill="#ffd700"/>
+    <polygon points="200,40 140,200 260,200" fill="#e8b84a"/>
+  </g>
+  <g filter="url(#bookShadow)">
+    <g transform="translate(120, 80) rotate(-8)">
+      <path d="M0 10 L75 0 L150 10 L145 120 L75 132 L5 120 Z" fill="url(#bookGrad)"/>
+      <path d="M75 0 L75 132" stroke="#8b6528" stroke-width="1.5"/>
+      <path d="M0 10 L75 22 L150 10" stroke="#d4aa50" stroke-width="1" opacity="0.5"/>
+      <line x1="12" y1="35" x2="63" y2="28" stroke="#fff" stroke-width="1" opacity="0.25"/>
+      <line x1="14" y1="48" x2="62" y2="41" stroke="#fff" stroke-width="1" opacity="0.2"/>
+      <line x1="16" y1="61" x2="61" y2="54" stroke="#fff" stroke-width="1" opacity="0.22"/>
+      <line x1="87" y1="28" x2="138" y2="35" stroke="#fff" stroke-width="1" opacity="0.25"/>
+      <line x1="88" y1="41" x2="136" y2="48" stroke="#fff" stroke-width="1" opacity="0.2"/>
+      <line x1="89" y1="54" x2="134" y2="61" stroke="#fff" stroke-width="1" opacity="0.22"/>
+    </g>
+  </g>
+  <g opacity="0.7">
+    <circle cx="290" cy="90" r="28" fill="#ff6b6b" opacity="0.15"/>
+    <text x="290" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">📚</text>
+    <circle cx="95" cy="210" r="24" fill="#4ecdc4" opacity="0.15"/>
+    <text x="95" y="216" text-anchor="middle" font-family="Arial, sans-serif" font-size="20">✏️</text>
+    <circle cx="310" cy="220" r="22" fill="#ffd93d" opacity="0.15"/>
+    <text x="310" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="19">💡</text>
+    <circle cx="80" cy="110" r="18" fill="#a29bfe" opacity="0.12"/>
+    <text x="80" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="15">🎓</text>
+  </g>
+  <g opacity="0.08">
+    <path d="M60 265 Q120 255 200 260 T340 255" stroke="#c49a48" stroke-width="1.5" fill="none"/>
+    <path d="M80 275 Q140 268 200 272 T320 268" stroke="#d4aa50" stroke-width="1" fill="none"/>
+  </g>
+</svg>

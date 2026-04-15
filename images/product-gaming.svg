@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 游戏手柄主体 -->
+  <path d="M100 180 Q100 140 140 140 L260 140 Q300 140 300 180 L300 220 Q300 280 250 280 Q220 280 210 250 L190 250 Q180 280 150 280 Q100 280 100 220 Z" fill="none" stroke="#1B4B6F" stroke-width="2"/>
+  
+  <!-- 手柄内部轮廓 -->
+  <path d="M115 180 Q115 155 145 155 L255 155 Q285 155 285 180 L285 220 Q285 265 250 265 Q225 265 218 240 L182 240 Q175 265 150 265 Q115 265 115 220 Z" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 左侧方向键 -->
+  <path d="M145 185 L145 215" fill="none" stroke="#1B4B6F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M130 200 L160 200" fill="none" stroke="#1B4B6F" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- 右侧动作按钮 -->
+  <circle cx="255" cy="185" r="6" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <circle cx="270" cy="200" r="6" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <circle cx="240" cy="200" r="6" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <circle cx="255" cy="215" r="6" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  
+  <!-- 中间选择按钮 -->
+  <rect x="185" y="190" width="12" height="6" rx="2" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <rect x="203" y="190" width="12" height="6" rx="2" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  
+  <!-- 摇杆 -->
+  <circle cx="165" cy="235" r="10" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  <circle cx="235" cy="235" r="10" fill="none" stroke="#1B4B6F" stroke-width="1.5"/>
+  
+  <!-- 玩家姿态轮廓 - 简化的头部和肩膀 -->
+  <circle cx="200" cy="80" r="25" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.6"/>
+  <path d="M160 120 Q200 100 240 120" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 游戏特效线条 -->
+  <path d="M60 160 L80 170" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <path d="M60 200 L80 200" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <path d="M60 240 L80 230" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  
+  <path d="M340 160 L320 170" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <path d="M340 200 L320 200" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <path d="M340 240 L320 230" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- 装饰性元素 -->
+  <circle cx="70" cy="150" r="3" fill="#1B4B6F" opacity="0.3"/>
+  <circle cx="330" cy="150" r="3" fill="#1B4B6F" opacity="0.3"/>
+  <circle cx="70" cy="250" r="3" fill="#1B4B6F" opacity="0.3"/>
+  <circle cx="330" cy="250" r="3" fill="#1B4B6F" opacity="0.3"/>
+</svg>

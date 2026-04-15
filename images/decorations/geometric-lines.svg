@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff00aa;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#ff00aa;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#ff00aa;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="line3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7b68ee;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#7b68ee;stop-opacity:0.22"/>
+      <stop offset="100%" style="stop-color:#7b68ee;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="lineGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="#000" opacity="0"/>
+  <g filter="url(#lineGlow)">
+    <g opacity="0.6">
+      <line x1="0" y1="60" x2="800" y2="60" stroke="url(#line1)" stroke-width="0.8"/>
+      <line x1="0" y1="140" x2="800" y2="140" stroke="url(#line2)" stroke-width="0.6"/>
+      <line x1="0" y1="220" x2="800" y2="220" stroke="url(#line3)" stroke-width="0.7"/>
+      <line x1="0" y1="300" x2="800" y2="300" stroke="url(#line1)" stroke-width="0.5"/>
+      <line x1="0" y1="380" x2="800" y2="380" stroke="url(#line2)" stroke-width="0.65"/>
+      <line x1="0" y1="460" x2="800" y2="460" stroke="url(#line3)" stroke-width="0.55"/>
+      <line x1="0" y1="540" x2="800" y2="540" stroke="url(#line1)" stroke-width="0.75"/>
+    </g>
+    <g opacity="0.35">
+      <line x1="120" y1="0" x2="120" y2="600" stroke="url(#line2)" stroke-width="0.6"/>
+      <line x1="280" y1="0" x2="280" y2="600" stroke="url(#line1)" stroke-width="0.5"/>
+      <line x1="400" y1="0" x2="400" y2="600" stroke="url(#line3)" stroke-width="0.7"/>
+      <line x1="520" y1="0" x2="520" y2="600" stroke="url(#line1)" stroke-width="0.55"/>
+      <line x1="680" y1="0" x2="680" y2="600" stroke="url(#line2)" stroke-width="0.6"/>
+    </g>
+    <g opacity="0.15">
+      <circle cx="200" cy="150" r="45" stroke="#00d4ff" stroke-width="0.5" fill="none"/>
+      <circle cx="200" cy="150" r="70" stroke="#7b68ee" stroke-width="0.35" fill="none"/>
+      <circle cx="600" cy="350" r="55" stroke="#ff00aa" stroke-width="0.5" fill="none"/>
+      <circle cx="600" cy="350" r="85" stroke="#00d4ff" stroke-width="0.3" fill="none"/>
+      <circle cx="350" cy="450" r="38" stroke="#7b68ee" stroke-width="0.45" fill="none"/>
+      <rect x="450" y="100" width="60" height="60" rx="4" stroke="#00d4ff" stroke-width="0.4" fill="none" transform="rotate(20 480 130)"/>
+      <rect x="180" y="320" width="50" height="50" rx="3" stroke="#ff00aa" stroke-width="0.35" fill="none" transform="rotate(-15 205 345)"/>
+      <polygon points="550,500 575,545 525,545" stroke="#7b68ee" stroke-width="0.4" fill="none"/>
+      <polygon points="250,80 270,115 230,115" stroke="#00d4ff" stroke-width="0.35" fill="none"/>
+    </g>
+    <g opacity="0.08">
+      <path d="M0 90 Q200 70 400 95 T800 88" stroke="#00d4ff" stroke-width="0.6" fill="none"/>
+      <path d="M0 260 Q200 240 400 265 T800 255" stroke="#ff00aa" stroke-width="0.5" fill="none"/>
+      <path d="M0 420 Q200 395 400 430 T800 415" stroke="#7b68ee" stroke-width="0.55" fill="none"/>
+      <path d="M0 510 Q200 485 400 520 T800 505" stroke="#00d4ff" stroke-width="0.45" fill="none"/>
+    </g>
+  </g>
+</svg>

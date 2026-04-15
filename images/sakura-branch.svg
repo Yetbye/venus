@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- 樱花枝条 - 浮世绘樱花 -->
+  <defs>
+    <radialGradient id="sakuraGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFD1DC"/>
+      <stop offset="60%" style="stop-color:#FFB7C5"/>
+      <stop offset="100%" style="stop-color:#FF9AAF"/>
+    </radialGradient>
+    <linearGradient id="branchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C3E50"/>
+      <stop offset="50%" style="stop-color:#4A5F3A"/>
+      <stop offset="100%" style="stop-color:#2C3E50"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect x="0" y="0" width="400" height="300" fill="#FFF5F7" opacity="0.3"/>
+  
+  <!-- 主枝干 -->
+  <path d="M0 250 Q80 220 150 180 Q220 140 280 100 Q340 60 380 30" 
+        stroke="url(#branchGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- 主枝干纹理 -->
+  <path d="M10 245 Q85 218 152 178 Q220 138 278 98" 
+        stroke="#3d4f3a" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- 分枝1 -->
+  <path d="M150 180 Q180 160 210 140 Q240 120 260 95" 
+        stroke="url(#branchGrad)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- 分枝2 -->
+  <path d="M280 100 Q300 80 320 60 Q340 40 355 25" 
+        stroke="url(#branchGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 分枝3 -->
+  <path d="M100 230 Q130 200 160 175" 
+        stroke="url(#branchGrad)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- 细枝 -->
+  <g stroke="#4A5F3A" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M210 140 Q225 120 235 100"/>
+    <path d="M320 60 Q335 45 345 30"/>
+    <path d="M180 160 Q195 140 205 120"/>
+  </g>
+  
+  <!-- 樱花1 - 盛开 -->
+  <g transform="translate(200, 130)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-10" rx="5" ry="10" transform="rotate(0)"/>
+      <ellipse cx="9.5" cy="-3" rx="5" ry="10" transform="rotate(72)"/>
+      <ellipse cx="6" cy="8" rx="5" ry="10" transform="rotate(144)"/>
+      <ellipse cx="-6" cy="8" rx="5" ry="10" transform="rotate(216)"/>
+      <ellipse cx="-9.5" cy="-3" rx="5" ry="10" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="3" fill="#FF6B8A" opacity="0.5"/>
+  </g>
+  
+  <!-- 樱花2 -->
+  <g transform="translate(260, 90)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-9" rx="4.5" ry="9"/>
+      <ellipse cx="8.5" cy="-2.5" rx="4.5" ry="9" transform="rotate(72)"/>
+      <ellipse cx="5.5" cy="7.5" rx="4.5" ry="9" transform="rotate(144)"/>
+      <ellipse cx="-5.5" cy="7.5" rx="4.5" ry="9" transform="rotate(216)"/>
+      <ellipse cx="-8.5" cy="-2.5" rx="4.5" ry="9" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="2.5" fill="#FF6B8A" opacity="0.5"/>
+  </g>
+  
+  <!-- 樱花3 -->
+  <g transform="translate(340, 50)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-11" rx="5.5" ry="11"/>
+      <ellipse cx="10.5" cy="-3.5" rx="5.5" ry="11" transform="rotate(72)"/>
+      <ellipse cx="6.5" cy="9" rx="5.5" ry="11" transform="rotate(144)"/>
+      <ellipse cx="-6.5" cy="9" rx="5.5" ry="11" transform="rotate(216)"/>
+      <ellipse cx="-10.5" cy="-3.5" rx="5.5" ry="11" transform="rotate(288)"/>
+    </g>
+    <circle cx="0" cy="0" r="3" fill="#FF6B8A" opacity="0.5"/>
+  </g>
+  
+  <!-- 樱花4 -->
+  <g transform="translate(130, 200)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-8" rx="4" ry="8"/>
+      <ellipse cx="7.5" cy="-2" rx="4" ry="8" transform="rotate(72)"/>
+      <ellipse cx="4.5" cy="6.5" rx="4" ry="8" transform="rotate(144)"/>
+      <ellipse cx="-4.5" cy="6.5" rx="4" ry="8" transform="rotate(216)"/>
+      <ellipse cx="-7.5" cy="-2" rx="4" ry="8" transform="rotate(288)"/>
+    </g>
+  </g>
+  
+  <!-- 樱花5 -->
+  <g transform="translate(370, 35)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-9" rx="4.5" ry="9"/>
+      <ellipse cx="8.5" cy="-3" rx="4.5" ry="9" transform="rotate(72)"/>
+      <ellipse cx="5.5" cy="7" rx="4.5" ry="9" transform="rotate(144)"/>
+      <ellipse cx="-5.5" cy="7" rx="4.5" ry="9" transform="rotate(216)"/>
+      <ellipse cx="-8.5" cy="-3" rx="4.5" ry="9" transform="rotate(288)"/>
+    </g>
+  </g>
+  
+  <!-- 樱花6 -->
+  <g transform="translate(80, 235)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-7" rx="3.5" ry="7"/>
+      <ellipse cx="6.5" cy="-2" rx="3.5" ry="7" transform="rotate(72)"/>
+      <ellipse cx="4" cy="5.5" rx="3.5" ry="7" transform="rotate(144)"/>
+      <ellipse cx="-4" cy="5.5" rx="3.5" ry="7" transform="rotate(216)"/>
+      <ellipse cx="-6.5" cy="-2" rx="3.5" ry="7" transform="rotate(288)"/>
+    </g>
+  </g>
+  
+  <!-- 樱花7 -->
+  <g transform="translate(310, 75)">
+    <g fill="url(#sakuraGrad)">
+      <ellipse cx="0" cy="-8" rx="4" ry="8"/>
+      <ellipse cx="7.5" cy="-2.5" rx="4" ry="8" transform="rotate(72)"/>
+      <ellipse cx="4.5" cy="6.5" rx="4" ry="8" transform="rotate(144)"/>
+      <ellipse cx="-4.5" cy="6.5" rx="4" ry="8" transform="rotate(216)"/>
+      <ellipse cx="-7.5" cy="-2.5" rx="4" ry="8" transform="rotate(288)"/>
+    </g>
+  </g>
+  
+  <!-- 花苞 -->
+  <g fill="#FF9AAF" opacity="0.7">
+    <ellipse cx="235" cy="105" rx="4" ry="6"/>
+    <ellipse cx="165" cy="175" rx="3" ry="5"/>
+    <ellipse cx="355" cy="45" rx="3.5" ry="5.5"/>
+    <ellipse cx="290" cy="115" rx="3" ry="4.5"/>
+  </g>
+  
+  <!-- 飘落的花瓣 -->
+  <g fill="url(#sakuraGrad)" opacity="0.6">
+    <ellipse cx="50" cy="280" rx="4" ry="6" transform="rotate(30)"/>
+    <ellipse cx="120" cy="260" rx="3" ry="5" transform="rotate(-20)"/>
+    <ellipse cx="200" cy="270" rx="3.5" ry="5.5" transform="rotate(45)"/>
+    <ellipse cx="280" cy="250" rx="3" ry="4.5" transform="rotate(-35)"/>
+    <ellipse cx="350" cy="280" rx="4" ry="6" transform="rotate(15)"/>
+    <ellipse cx="150" cy="290" rx="2.5" ry="4" transform="rotate(60)"/>
+    <ellipse cx="320" cy="265" rx="3" ry="4.5" transform="rotate(-45)"/>
+  </g>
+  
+  <!-- 更远处飘落的花瓣 -->
+  <g fill="#FFB7C5" opacity="0.4">
+    <ellipse cx="80" cy="150" rx="2" ry="3" transform="rotate(20)"/>
+    <ellipse cx="250" cy="180" rx="2.5" ry="3.5" transform="rotate(-30)"/>
+    <ellipse cx="180" cy="220" rx="2" ry="3" transform="rotate(50)"/>
+  </g>
+  
+  <!-- 嫩叶 -->
+  <g fill="#8FBC8F" opacity="0.4">
+    <ellipse cx="215" cy="125" rx="3" ry="6"/>
+    <ellipse cx="275" cy="85" rx="2.5" ry="5"/>
+    <ellipse cx="330" cy="55" rx="3" ry="5.5"/>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 50" fill="none">
+  <!-- 波浪分隔线 - 神奈川冲浪里风格 -->
+  <defs>
+    <linearGradient id="dividerWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1B4B6F"/>
+      <stop offset="25%" style="stop-color:#2E6B8A"/>
+      <stop offset="50%" style="stop-color:#1B4B6F"/>
+      <stop offset="75%" style="stop-color:#2E6B8A"/>
+      <stop offset="100%" style="stop-color:#1B4B6F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 底部波浪基底 -->
+  <path d="M0 35 Q75 20 150 32 Q225 45 300 30 Q375 15 450 28 Q525 42 600 28 Q675 14 750 27 Q825 41 900 28 Q975 15 1050 30 Q1125 45 1200 32 L1200 50 L0 50 Z" 
+        fill="url(#dividerWaveGrad)" opacity="0.3"/>
+  
+  <!-- 中层波浪 -->
+  <path d="M0 40 Q60 25 120 38 Q180 50 240 35 Q300 20 360 33 Q420 46 480 32 Q540 18 600 30 Q660 43 720 30 Q780 17 840 32 Q900 47 960 33 Q1020 19 1080 31 Q1140 44 1200 38" 
+        stroke="#1B4B6F" stroke-width="3" fill="none"/>
+  
+  <!-- 浪花顶部 - 白色 -->
+  <path d="M30 32 Q60 22 90 30 Q120 38 150 28 Q180 18 210 28 Q240 38 270 26 Q300 16 330 26 Q360 36 390 25 Q420 15 450 25 Q480 35 510 24 Q540 14 570 24 Q600 34 630 23 Q660 13 690 23 Q720 33 750 22 Q780 12 810 22 Q840 32 870 21 Q900 11 930 21 Q960 31 990 20 Q1020 10 1050 20 Q1080 30 1110 19 Q1140 9 1170 19" 
+        stroke="#FFF" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+  
+  <!-- 浪花飞溅点 -->
+  <g fill="#FFF" opacity="0.7">
+    <circle cx="60" cy="28" r="2"/>
+    <circle cx="180" cy="25" r="1.5"/>
+    <circle cx="300" cy="22" r="2"/>
+    <circle cx="420" cy="24" r="1.5"/>
+    <circle cx="540" cy="21" r="2"/>
+    <circle cx="660" cy="23" r="1.5"/>
+    <circle cx="780" cy="20" r="2"/>
+    <circle cx="900" cy="22" r="1.5"/>
+    <circle cx="1020" cy="19" r="2"/>
+    <circle cx="1140" cy="21" r="1.5"/>
+  </g>
+  
+  <!-- 波浪纹理线 -->
+  <g stroke="#2E6B8A" stroke-width="0.8" fill="none" opacity="0.4">
+    <path d="M0 45 Q100 35 200 42 Q300 50 400 38 Q500 25 600 36 Q700 48 800 35 Q900 22 1000 34 Q1100 46 1200 40"/>
+  </g>
+  
+  <!-- 小浪花装饰 -->
+  <g stroke="#1B4B6F" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M100 35 Q105 28 110 35"/>
+    <path d="M400 33 Q405 26 410 33"/>
+    <path d="M700 31 Q705 24 710 31"/>
+    <path d="M1000 32 Q1005 25 1010 32"/>
+  </g>
+  
+  <!-- 青海波装饰 -->
+  <g stroke="#1B4B6F" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50 45 Q55 40 60 45 Q65 50 70 45"/>
+    <path d="M350 43 Q355 38 360 43 Q365 48 370 43"/>
+    <path d="M650 42 Q655 37 660 42 Q665 47 670 42"/>
+    <path d="M950 44 Q955 39 960 44 Q965 49 970 44"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="avatar3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="50%" style="stop-color:#e63946"/>
+      <stop offset="100%" style="stop-color:#c1121f"/>
+    </linearGradient>
+    <radialGradient id="avatar3Shine" cx="30%" cy="25%" r="60%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#fff;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="avatarShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#avatarShadow)">
+    <circle cx="60" cy="60" r="56" fill="url(#avatar3Bg)"/>
+  </g>
+  <circle cx="60" cy="60" r="56" fill="url(#avatar3Shine)"/>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#fff">W</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FAF9F6"/>
+  
+  <!-- Single line game controller illustration -->
+  <g fill="none" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Controller body - continuous line -->
+    <path d="M120,180 
+             C120,150 140,130 170,130 
+             L230,130 
+             C260,130 280,150 280,180
+             C290,180 300,190 300,210
+             L300,240
+             C300,270 280,290 250,290
+             C230,290 220,270 210,250
+             L190,250
+             C180,270 170,290 150,290
+             C120,290 100,270 100,240
+             L100,210
+             C100,190 110,180 120,180
+             Z"/>
+    
+    <!-- D-pad - integrated in single line style -->
+    <path d="M145,195 L145,205 L135,205 L135,215 L145,215 L145,225 L155,225 L155,215 L165,215 L165,205 L155,205 L155,195 Z"/>
+    
+    <!-- Action buttons -->
+    <circle cx="245" cy="200" r="6"/>
+    <circle cx="265" cy="210" r="6"/>
+    <circle cx="255" cy="225" r="6"/>
+    <circle cx="235" cy="215" r="6"/>
+    
+    <!-- Select/Start buttons -->
+    <ellipse cx="175" cy="230" rx="8" ry="4"/>
+    <ellipse cx="205" cy="230" rx="8" ry="4"/>
+    
+    <!-- Shoulder buttons -->
+    <path d="M125,145 Q135,140 145,145" stroke-width="2"/>
+    <path d="M255,145 Q265,140 275,145" stroke-width="2"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="30" fill="none" stroke="#E85D4E" stroke-width="1" opacity="0.3"/>
+  <circle cx="320" cy="320" r="40" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.3"/>
+  <line x1="60" y1="320" x2="100" y2="320" stroke="#F4D03F" stroke-width="2" opacity="0.4"/>
+</svg>

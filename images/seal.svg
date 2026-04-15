@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- 印章风格装饰 - 篆刻印章 -->
+  <defs>
+    <linearGradient id="sealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E85D4E"/>
+      <stop offset="50%" style="stop-color:#D1483C"/>
+      <stop offset="100%" style="stop-color:#E85D4E"/>
+    </linearGradient>
+    <filter id="roughPaper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2"/>
+    </filter>
+  </defs>
+  
+  <!-- 外边框 - 粗线 -->
+  <rect x="5" y="5" width="90" height="90" stroke="url(#sealGrad)" stroke-width="4" fill="none"/>
+  
+  <!-- 内边框 - 细线 -->
+  <rect x="12" y="12" width="76" height="76" stroke="#E85D4E" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- 印章文字区域 - 模拟篆书 -->
+  <g fill="#E85D4E" opacity="0.9">
+    <!-- 第一行 -->
+    <rect x="22" y="22" width="12" height="12" rx="1"/>
+    <rect x="44" y="22" width="12" height="12" rx="1"/>
+    <rect x="66" y="22" width="12" height="12" rx="1"/>
+    
+    <!-- 第二行 -->
+    <rect x="22" y="44" width="12" height="12" rx="1"/>
+    <rect x="44" y="44" width="12" height="12" rx="1"/>
+    <rect x="66" y="44" width="12" height="12" rx="1"/>
+    
+    <!-- 第三行 -->
+    <rect x="22" y="66" width="12" height="12" rx="1"/>
+    <rect x="44" y="66" width="12" height="12" rx="1"/>
+    <rect x="66" y="66" width="12" height="12" rx="1"/>
+  </g>
+  
+  <!-- 文字内部镂空 - 模拟篆刻效果 -->
+  <g fill="#FFF" opacity="0.3">
+    <rect x="25" y="25" width="6" height="6"/>
+    <rect x="47" y="25" width="6" height="6"/>
+    <rect x="69" y="25" width="6" height="6"/>
+    <rect x="25" y="47" width="6" height="6"/>
+    <rect x="47" y="47" width="6" height="6"/>
+    <rect x="69" y="47" width="6" height="6"/>
+    <rect x="25" y="69" width="6" height="6"/>
+    <rect x="47" y="69" width="6" height="6"/>
+    <rect x="69" y="69" width="6" height="6"/>
+  </g>
+  
+  <!-- 边框装饰角 -->
+  <g stroke="#E85D4E" stroke-width="2" fill="none" opacity="0.5">
+    <!-- 左上 -->
+    <path d="M5 20 L5 5 L20 5"/>
+    <!-- 右上 -->
+    <path d="M80 5 L95 5 L95 20"/>
+    <!-- 左下 -->
+    <path d="M5 80 L5 95 L20 95"/>
+    <!-- 右下 -->
+    <path d="M80 95 L95 95 L95 80"/>
+  </g>
+  
+  <!-- 印章磨损效果 -->
+  <g fill="#E85D4E" opacity="0.15">
+    <ellipse cx="15" cy="15" rx="3" ry="2"/>
+    <ellipse cx="85" cy="18" rx="2" ry="3"/>
+    <ellipse cx="20" cy="88" rx="2.5" ry="2"/>
+    <ellipse cx="88" cy="85" rx="2" ry="2.5"/>
+    <ellipse cx="50" cy="10" rx="2" ry="1.5"/>
+    <ellipse cx="10" cy="50" rx="1.5" ry="2"/>
+  </g>
+  
+  <!-- 边框缺口 - 古朴感 -->
+  <g fill="#FFF" opacity="0.9">
+    <rect x="3" y="45" width="4" height="3"/>
+    <rect x="93" y="55" width="4" height="3"/>
+    <rect x="45" y="3" width="3" height="4"/>
+    <rect x="55" y="93" width="3" height="4"/>
+  </g>
+  
+  <!-- 中心装饰点 -->
+  <circle cx="50" cy="50" r="3" fill="#D1483C" opacity="0.4"/>
+</svg>

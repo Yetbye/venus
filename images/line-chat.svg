@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FAF9F6"/>
+  
+  <!-- Single line chat/conversation illustration -->
+  <g fill="none" stroke="#2C3E50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main chat bubble -->
+    <path d="M100,120 
+             L280,120 
+             C295,120 300,125 300,140
+             L300,200
+             C300,215 295,220 280,220
+             L200,220
+             L160,260
+             L165,220
+             L100,220
+             C85,220 80,215 80,200
+             L80,140
+             C80,125 85,120 100,120
+             Z"/>
+    
+    <!-- Secondary chat bubble -->
+    <path d="M140,250 
+             L300,250 
+             C315,250 320,255 320,270
+             L320,310
+             C320,325 315,330 300,330
+             L240,330
+             L210,360
+             L215,330
+             L140,330
+             C125,330 120,325 120,310
+             L120,270
+             C120,255 125,250 140,250
+             Z"/>
+    
+    <!-- Dots in main bubble -->
+    <circle cx="140" cy="170" r="5" fill="#2C3E50" stroke="none"/>
+    <circle cx="170" cy="170" r="5" fill="#2C3E50" stroke="none"/>
+    <circle cx="200" cy="170" r="5" fill="#2C3E50" stroke="none"/>
+    
+    <!-- Lines in secondary bubble -->
+    <line x1="150" y1="285" x2="250" y2="285" stroke-width="2"/>
+    <line x1="150" y1="300" x2="220" y2="300" stroke-width="2"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="70" cy="80" r="20" fill="none" stroke="#E85D4E" stroke-width="1" opacity="0.3"/>
+  <circle cx="330" cy="100" r="15" fill="none" stroke="#1B4B6F" stroke-width="1" opacity="0.3"/>
+  <line x1="320" y1="350" x2="360" y2="350" stroke="#F4D03F" stroke-width="2" opacity="0.4"/>
+</svg>

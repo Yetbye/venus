@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="mtnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B4B6F;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#2E6B8F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A8BB0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="snowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FAF9F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#FAF9F6"/>
+  
+  <!-- Distant mountains -->
+  <path d="M0,350 L150,200 L300,350 Z" fill="#A8D8EA" opacity="0.5"/>
+  <path d="M200,350 L350,220 L500,350 Z" fill="#A8D8EA" opacity="0.4"/>
+  <path d="M450,350 L600,180 L750,350 Z" fill="#A8D8EA" opacity="0.5"/>
+  
+  <!-- Main Fuji-style mountain -->
+  <path d="M200,450 L400,150 L600,450 Z" fill="url(#mtnGrad)"/>
+  
+  <!-- Snow cap -->
+  <path d="M400,150 L340,230 L360,220 L380,235 L400,215 L420,235 L440,220 L460,230 Z" fill="url(#snowGrad)"/>
+  
+  <!-- Secondary mountain - reddish -->
+  <path d="M500,450 L650,250 L800,450 Z" fill="#E85D4E" opacity="0.9"/>
+  
+  <!-- Mountain lines/texture -->
+  <path d="M280,350 L400,180 L520,350" fill="none" stroke="#4A8BB0" stroke-width="1" opacity="0.3"/>
+  <path d="M320,400 L400,250 L480,400" fill="none" stroke="#4A8BB0" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Decorative waves at bottom -->
+  <path d="M0,420 
+           Q50,410 100,420 T200,420 T300,420 T400,420 T500,420 T600,420 T700,420 T800,420
+           L800,500 L0,500 Z" 
+        fill="#1B4B6F" opacity="0.3"/>
+  
+  <path d="M0,440 
+           Q50,430 100,440 T200,440 T300,440 T400,440 T500,440 T600,440 T700,440 T800,440
+           L800,500 L0,500 Z" 
+        fill="#1B4B6F" opacity="0.5"/>
+  
+  <path d="M0,460 
+           Q50,450 100,460 T200,460 T300,460 T400,460 T500,460 T600,460 T700,460 T800,460
+           L800,500 L0,500 Z" 
+        fill="#1B4B6F" opacity="0.7"/>
+  
+  <!-- Sun/moon circle -->
+  <circle cx="650" cy="120" r="40" fill="#F4D03F" opacity="0.8"/>
+  
+  <!-- Decorative lines -->
+  <line x1="50" y1="100" x2="150" y2="100" stroke="#E85D4E" stroke-width="2" opacity="0.6"/>
+  <line x1="70" y1="110" x2="130" y2="110" stroke="#E85D4E" stroke-width="1.5" opacity="0.5"/>
+</svg>

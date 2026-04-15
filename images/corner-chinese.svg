@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- 中式角落装饰 - 中式回纹角落 -->
+  <defs>
+    <linearGradient id="chineseCornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E85D4E"/>
+      <stop offset="100%" style="stop-color:#D1483C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 角落背景 -->
+  <path d="M0 0 L100 0 L100 15 Q70 15 70 45 Q70 75 40 75 Q15 75 15 100 L0 100 Z" 
+        fill="url(#chineseCornerGrad)" opacity="0.1"/>
+  
+  <!-- 外边框 -->
+  <path d="M0 0 L90 0 Q90 12 78 12 Q65 12 65 25 Q65 38 52 38 Q38 38 38 52 Q38 65 25 65 Q12 65 12 78 Q12 90 0 90 Z" 
+        fill="none" stroke="#E85D4E" stroke-width="2.5"/>
+  
+  <!-- 回纹装饰 - 外层 -->
+  <g stroke="#E85D4E" stroke-width="1.5" fill="none">
+    <path d="M5 5 L80 5 Q80 20 65 20 Q50 20 50 35 Q50 50 35 50 Q20 50 20 65 Q20 80 5 80"/>
+  </g>
+  
+  <!-- 回纹装饰 - 内层 -->
+  <g stroke="#D1483C" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M12 12 L70 12 Q70 22 58 22 Q45 22 45 35 Q45 48 32 48 Q18 48 18 62 Q18 75 12 75"/>
+  </g>
+  
+  <!-- 祥云装饰 -->
+  <g stroke="#E85D4E" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M75 25 Q80 20 85 25 Q90 30 85 35 Q80 40 75 35"/>
+    <path d="M45 55 Q50 50 55 55 Q60 60 55 65 Q50 70 45 65"/>
+    <path d="M25 85 Q30 80 35 85 Q40 90 35 95 Q30 100 25 95"/>
+  </g>
+  
+  <!-- 云纹填充 -->
+  <g fill="#E85D4E" opacity="0.3">
+    <ellipse cx="80" cy="30" rx="8" ry="4"/>
+    <ellipse cx="50" cy="60" rx="8" ry="4"/>
+    <ellipse cx="30" cy="90" rx="6" ry="3"/>
+  </g>
+  
+  <!-- 角花装饰 -->
+  <g fill="#E85D4E" opacity="0.5">
+    <circle cx="5" cy="5" r="3"/>
+    <circle cx="85" cy="8" r="2"/>
+    <circle cx="8" cy="85" r="2"/>
+  </g>
+  
+  <!-- 线条装饰 -->
+  <path d="M90 20 Q85 25 90 30" stroke="#D1483C" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M60 50 Q55 55 60 60" stroke="#D1483C" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M30 80 Q25 85 30 90" stroke="#D1483C" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- 小回纹 -->
+  <g stroke="#E85D4E" stroke-width="0.8" fill="none" opacity="0.4">
+    <path d="M88 8 L95 8 L95 15"/>
+    <path d="M8 88 L8 95 L15 95"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="compBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff5f8"/>
+      <stop offset="50%" style="stop-color:#ffe8ef"/>
+      <stop offset="100%" style="stop-color:#ffd9e4"/>
+    </linearGradient>
+    <radialGradient id="heartGlow" cx="50%" cy="48%" r="45%">
+      <stop offset="0%" style="stop-color:#ff6b8a;stop-opacity:0.3"/>
+      <stop offset="55%" style="stop-color:#ff4d6d;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#fff5f8;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="heartGrad" cx="50%" cy="55%" r="50%">
+      <stop offset="0%" style="stop-color:#ff7a94"/>
+      <stop offset="40%" style="stop-color:#ff4d6d"/>
+      <stop offset="100%" style="stop-color:#e63956"/>
+    </radialGradient>
+    <filter id="heartGlowFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12"/>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20"/>
+    </filter>
+    <filter id="sparkleFilter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5"/>
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#compBg)"/>
+  <ellipse cx="200" cy="145" rx="175" ry="135" fill="url(#heartGlow)"/>
+  <g filter="url(#softGlow)" opacity="0.12">
+    <circle cx="200" cy="150" r="80" fill="#ff6b8a"/>
+  </g>
+  <g filter="url(#heartGlowFilter)">
+    <path d="M200 220 C200 220 115 155 115 105 C115 75 140 58 165 68 C180 74 192 90 200 102 C208 90 220 74 235 68 C260 58 285 75 285 105 C285 155 200 220 200 220 Z" fill="url(#heartGrad)"/>
+  </g>
+  <path d="M200 215 C200 215 122 156 122 110 C122 83 144 68 167 77 C181 82 191 96 200 107 C209 96 219 82 233 77 C256 68 278 83 278 110 C278 156 200 215 200 215 Z" fill="#ff7a94" opacity="0.35"/>
+  <g opacity="0.18">
+    <text x="200" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e63956" font-weight="500">温暖陪伴</text>
+  </g>
+  <g filter="url(#sparkleFilter)" opacity="0.5">
+    <circle cx="100" cy="80" r="3" fill="#ffd700"/>
+    <circle cx="300" cy="70" r="2.5" fill="#ff9ecd"/>
+    <circle cx="85" cy="190" r="2.2" fill="#ffb3c1"/>
+    <circle cx="315" cy="185" r="2.8" fill="#ffd700"/>
+    <circle cx="120" cy="250" r="2" fill="#ff9ecd"/>
+    <circle cx="280" cy="245" r="2.3" fill="#ffb3c1"/>
+    <circle cx="70" cy="135" r="1.8" fill="#ffd700"/>
+    <circle cx="330" cy="130" r="2" fill="#ff9ecd"/>
+  </g>
+</svg>

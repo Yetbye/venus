@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#FAF9F6"/>
+  
+  <!-- Geometric composition - Mondrian/Ukiyo-e inspired -->
+  
+  <!-- Large blue circle -->
+  <circle cx="180" cy="180" r="120" fill="#1B4B6F" opacity="0.9"/>
+  
+  <!-- Red rectangle -->
+  <rect x="350" y="80" width="180" height="200" fill="#E85D4E" opacity="0.9"/>
+  
+  <!-- Yellow circle -->
+  <circle cx="440" cy="380" r="100" fill="#F4D03F" opacity="0.9"/>
+  
+  <!-- Blue triangle -->
+  <polygon points="80,450 200,280 320,450" fill="#2E6B8F" opacity="0.8"/>
+  
+  <!-- Overlapping elements -->
+  <rect x="120" y="350" width="150" height="150" fill="none" stroke="#1B4B6F" stroke-width="8"/>
+  
+  <!-- Small red circle -->
+  <circle cx="300" cy="300" r="40" fill="#E85D4E" opacity="0.7"/>
+  
+  <!-- Lines - connecting elements -->
+  <line x1="300" y1="80" x2="300" y2="520" stroke="#2C3E50" stroke-width="3"/>
+  <line x1="80" y1="300" x2="520" y2="300" stroke="#2C3E50" stroke-width="3"/>
+  
+  <!-- Diagonal lines -->
+  <line x1="80" y1="80" x2="200" y2="200" stroke="#E85D4E" stroke-width="2" opacity="0.5"/>
+  <line x1="520" y1="80" x2="400" y2="200" stroke="#1B4B6F" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Small geometric accents -->
+  <rect x="480" y="480" width="60" height="60" fill="#F4D03F" opacity="0.6"/>
+  <circle cx="520" cy="520" r="25" fill="none" stroke="#E85D4E" stroke-width="4"/>
+  
+  <!-- Thin lines grid -->
+  <line x1="150" y1="80" x2="150" y2="280" stroke="#D4D4CF" stroke-width="1" opacity="0.5"/>
+  <line x1="80" y1="150" x2="280" y2="150" stroke="#D4D4CF" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Small triangle accent -->
+  <polygon points="450,120 470,160 430,160" fill="#FFFFFF" opacity="0.8"/>
+</svg>

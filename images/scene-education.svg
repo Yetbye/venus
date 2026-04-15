@@ -1,0 +1,54 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 毕业帽主体 -->
+  <path d="M100 180 L200 130 L300 180 L200 230 Z" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  <path d="M100 180 L100 210 Q200 260 300 210 L300 180" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  
+  <!-- 毕业帽顶部平面 -->
+  <path d="M85 180 L200 125 L315 180 L200 235 Z" fill="none" stroke="#F4D03F" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 流苏 -->
+  <circle cx="300" cy="180" r="5" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <line x1="300" y1="185" x2="300" y2="240" stroke="#F4D03F" stroke-width="1.5"/>
+  <circle cx="300" cy="245" r="6" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <path d="M295 245 L290 255 L305 255 L300 245" fill="none" stroke="#F4D03F" stroke-width="1" opacity="0.6"/>
+  
+  <!-- 黑板/白板 -->
+  <rect x="80" y="260" width="240" height="100" rx="4" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  <rect x="90" y="270" width="220" height="80" fill="none" stroke="#F4D03F" stroke-width="1" opacity="0.4"/>
+  
+  <!-- 黑板上的内容 -->
+  <line x1="110" y1="290" x2="180" y2="290" stroke="#F4D03F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="110" y1="305" x2="200" y2="305" stroke="#F4D03F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="110" y1="320" x2="160" y2="320" stroke="#F4D03F" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 数学符号 -->
+  <text x="220" y="300" fill="#F4D03F" font-size="20" font-family="serif" opacity="0.7">∑</text>
+  <text x="250" y="320" fill="#F4D03F" font-size="16" font-family="serif" opacity="0.7">π</text>
+  <text x="270" y="295" fill="#F4D03F" font-size="18" font-family="serif" opacity="0.7">√</text>
+  
+  <!-- 书本堆叠 -->
+  <rect x="340" y="280" width="40" height="12" rx="1" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <rect x="338" y="292" width="44" height="12" rx="1" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <rect x="342" y="304" width="36" height="12" rx="1" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <rect x="340" y="316" width="40" height="12" rx="1" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  
+  <!-- 铅笔 -->
+  <path d="M50 280 L50 340" fill="none" stroke="#F4D03F" stroke-width="2"/>
+  <path d="M50 280 L45 270 L55 270 Z" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <path d="M50 340 L45 350 L55 350 Z" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  
+  <!-- 学习元素 - 灯泡 -->
+  <path d="M360 120 Q360 100 380 100 Q400 100 400 120 Q400 140 385 150 L385 160 L375 160 L375 150 Q360 140 360 120" fill="none" stroke="#F4D03F" stroke-width="1.5" opacity="0.6"/>
+  <line x1="375" y1="160" x2="385" y2="160" stroke="#F4D03F" stroke-width="1" opacity="0.5"/>
+  <line x1="377" y1="165" x2="383" y2="165" stroke="#F4D03F" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 装饰元素 -->
+  <circle cx="60" cy="120" r="4" fill="#F4D03F" opacity="0.3"/>
+  <circle cx="320" y="100" r="4" fill="#F4D03F" opacity="0.3"/>
+  <circle cx="40" cy="220" r="3" fill="#F4D03F" opacity="0.3"/>
+  <circle cx="370" cy="220" r="3" fill="#F4D03F" opacity="0.3"/>
+  
+  <!-- 小星星 -->
+  <path d="M70 100 L72 106 L78 106 L73 110 L75 116 L70 112 L65 116 L67 110 L62 106 L68 106 Z" fill="none" stroke="#F4D03F" stroke-width="1" opacity="0.4"/>
+  <path d="M330 140 L332 146 L338 146 L333 150 L335 156 L330 152 L325 156 L327 150 L322 146 L328 146 Z" fill="none" stroke="#F4D03F" stroke-width="1" opacity="0.4"/>
+</svg>

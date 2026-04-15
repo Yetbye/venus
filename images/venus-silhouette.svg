@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" fill="none">
+  <!-- 维纳斯剪影 - 优雅线条艺术 -->
+  <defs>
+    <linearGradient id="venusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8D5C4"/>
+      <stop offset="50%" style="stop-color:#C9A86C"/>
+      <stop offset="100%" style="stop-color:#E8D5C4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 头部轮廓 -->
+  <ellipse cx="100" cy="45" rx="22" ry="28" fill="url(#venusGrad)" opacity="0.9"/>
+  
+  <!-- 飘逸长发 -->
+  <path d="M78 55 Q60 80 55 120 Q50 160 60 200 Q65 220 70 240" 
+        stroke="#C9A86C" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M122 55 Q140 80 145 120 Q150 160 140 200 Q135 220 130 240" 
+        stroke="#C9A86C" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M85 50 Q75 100 72 150 Q70 180 75 210" 
+        stroke="#E8D5C4" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M115 50 Q125 100 128 150 Q130 180 125 210" 
+        stroke="#E8D5C4" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- 颈部 -->
+  <path d="M92 73 L92 95 Q100 98 108 95 L108 73" 
+        fill="url(#venusGrad)" opacity="0.85"/>
+  
+  <!-- 身体S曲线 - 优雅站姿 -->
+  <!-- 肩膀 -->
+  <path d="M70 100 Q100 90 130 100 L125 115 Q100 108 75 115 Z" 
+        fill="url(#venusGrad)" opacity="0.9"/>
+  
+  <!-- 躯干 - S曲线 -->
+  <path d="M75 115 Q85 140 80 170 Q75 200 85 230" 
+        stroke="#C9A86C" stroke-width="2" fill="none"/>
+  <path d="M125 115 Q115 140 120 170 Q125 200 115 230" 
+        stroke="#C9A86C" stroke-width="2" fill="none"/>
+  
+  <!-- 腰部 -->
+  <path d="M80 170 Q100 165 120 170" 
+        stroke="#E8D5C4" stroke-width="1.5" fill="none" opacity="0.8"/>
+  
+  <!-- 臀部 -->
+  <path d="M85 230 Q70 250 75 280 Q100 285 125 280 Q130 250 115 230" 
+        fill="url(#venusGrad)" opacity="0.85"/>
+  
+  <!-- 左腿 -->
+  <path d="M85 280 Q82 320 85 360 Q88 380 90 390" 
+        stroke="#C9A86C" stroke-width="2.5" fill="none"/>
+  <path d="M95 280 Q92 320 95 360 Q98 380 100 390" 
+        stroke="#C9A86C" stroke-width="2.5" fill="none"/>
+  
+  <!-- 右腿 -->
+  <path d="M105 280 Q108 320 105 360 Q102 380 100 390" 
+        stroke="#C9A86C" stroke-width="2.5" fill="none"/>
+  <path d="M115 280 Q118 320 115 360 Q112 380 110 390" 
+        stroke="#C9A86C" stroke-width="2.5" fill="none"/>
+  
+  <!-- 脚部 -->
+  <ellipse cx="95" cy="395" rx="8" ry="4" fill="#C9A86C" opacity="0.8"/>
+  <ellipse cx="105" cy="395" rx="8" ry="4" fill="#C9A86C" opacity="0.8"/>
+  
+  <!-- 手臂 - 优雅姿态 -->
+  <path d="M70 105 Q50 130 55 160 Q58 180 65 195" 
+        stroke="#C9A86C" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M130 105 Q150 130 145 160 Q142 180 135 195" 
+        stroke="#C9A86C" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <!-- 装饰性光晕 -->
+  <circle cx="100" cy="45" r="35" stroke="#C9A86C" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <circle cx="100" cy="45" r="40" stroke="#E8D5C4" stroke-width="0.3" fill="none" opacity="0.2"/>
+</svg>

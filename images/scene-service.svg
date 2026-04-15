@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 耳机主体 -->
+  <path d="M120 180 Q120 100 200 100 Q280 100 280 180" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  
+  <!-- 左耳罩 -->
+  <rect x="100" y="170" width="35" height="50" rx="8" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <rect x="108" y="180" width="19" height="30" rx="4" fill="none" stroke="#5A8F7B" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 右耳罩 -->
+  <rect x="265" y="170" width="35" height="50" rx="8" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <rect x="273" y="180" width="19" height="30" rx="4" fill="none" stroke="#5A8F7B" stroke-width="1" opacity="0.5"/>
+  
+  <!-- 麦克风 -->
+  <path d="M135 210 Q135 250 200 250 Q265 250 265 220" fill="none" stroke="#5A8F7B" stroke-width="1.5"/>
+  <circle cx="200" cy="250" r="6" fill="none" stroke="#5A8F7B" stroke-width="1.5"/>
+  
+  <!-- 对话框 1 -->
+  <path d="M60 280 Q60 260 80 260 L140 260 Q160 260 160 280 L160 320 Q160 340 140 340 L100 340 L80 360 L80 340 L80 340 Q60 340 60 320 Z" fill="none" stroke="#5A8F7B" stroke-width="1.5"/>
+  <line x1="80" y1="285" x2="140" y2="285" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  <line x1="80" y1="300" x2="130" y2="300" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  <line x1="80" y1="315" x2="120" y2="315" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  
+  <!-- 对话框 2 -->
+  <path d="M240 280 Q240 260 260 260 L320 260 Q340 260 340 280 L340 320 Q340 340 320 340 L320 340 L320 360 L300 340 L260 340 Q240 340 240 320 Z" fill="none" stroke="#5A8F7B" stroke-width="1.5"/>
+  <line x1="260" y1="285" x2="320" y2="285" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  <line x1="260" y1="300" x2="310" y2="300" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  <line x1="260" y1="315" x2="300" y2="315" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  
+  <!-- 服务图标 - 齿轮 -->
+  <circle cx="200" cy="150" r="20" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="200" cy="150" r="12" fill="none" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="125" x2="200" y2="130" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="200" y1="170" x2="200" y2="175" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="175" y1="150" x2="180" y2="150" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="220" y1="150" x2="225" y2="150" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="182" y1="132" x2="186" y2="136" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="214" y1="164" x2="218" y2="168" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="218" y1="132" x2="214" y2="136" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="186" y1="164" x2="182" y2="168" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 连接线 -->
+  <path d="M160 300 L200 300 L200 260" fill="none" stroke="#5A8F7B" stroke-width="1" stroke-dasharray="4,2" opacity="0.4"/>
+  <path d="M240 300 L200 300" fill="none" stroke="#5A8F7B" stroke-width="1" stroke-dasharray="4,2" opacity="0.4"/>
+  
+  <!-- 装饰圆点 -->
+  <circle cx="50" cy="150" r="3" fill="#5A8F7B" opacity="0.3"/>
+  <circle cx="350" cy="150" r="3" fill="#5A8F7B" opacity="0.3"/>
+  <circle cx="50" cy="320" r="3" fill="#5A8F7B" opacity="0.3"/>
+  <circle cx="350" cy="320" r="3" fill="#5A8F7B" opacity="0.3"/>
+  
+  <!-- 小星星 -->
+  <path d="M380 250 L381 253 L384 253 L382 255 L383 258 L380 256 L377 258 L378 255 L376 253 L379 253 Z" fill="none" stroke="#5A8F7B" stroke-width="1" opacity="0.4"/>
+</svg>

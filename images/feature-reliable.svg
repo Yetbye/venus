@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 盾牌外轮廓 -->
+  <path d="M200 60 L320 100 L320 200 Q320 280 200 350 Q80 280 80 200 L80 100 Z" fill="none" stroke="#1B4B6F" stroke-width="2"/>
+  
+  <!-- 盾牌内轮廓 -->
+  <path d="M200 80 L300 115 L300 200 Q300 265 200 325 Q100 265 100 200 L100 115 Z" fill="none" stroke="#1B4B6F" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 中心对勾 -->
+  <path d="M150 200 L185 235 L250 165" fill="none" stroke="#F4D03F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 稳定结构线条 - 水平 -->
+  <line x1="120" y1="140" x2="280" y2="140" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  <line x1="110" y1="260" x2="290" y2="260" stroke="#1B4B6F" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 稳定结构线条 - 垂直支撑 -->
+  <line x1="200" y1="80" x2="200" y2="140" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <line x1="200" y1="260" x2="200" y2="325" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- 侧边支撑 -->
+  <line x1="100" y1="115" x2="120" y2="140" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <line x1="300" y1="115" x2="280" y2="140" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <line x1="100" y1="200" x2="110" y2="260" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  <line x1="300" y1="200" x2="290" y2="260" stroke="#1B4B6F" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- 顶部装饰 -->
+  <circle cx="200" cy="110" r="8" fill="none" stroke="#F4D03F" stroke-width="1.5"/>
+  <circle cx="200" cy="110" r="3" fill="#F4D03F"/>
+  
+  <!-- 底部稳定基座 -->
+  <path d="M160 300 Q200 320 240 300" fill="none" stroke="#F4D03F" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- 角落装饰 -->
+  <circle cx="90" y="90" r="3" fill="#F4D03F" opacity="0.5"/>
+  <circle cx="310" cy="90" r="3" fill="#F4D03F" opacity="0.5"/>
+  
+  <!-- 企业级标识点 -->
+  <circle cx="140" cy="170" r="2" fill="#1B4B6F" opacity="0.6"/>
+  <circle cx="260" cy="170" r="2" fill="#1B4B6F" opacity="0.6"/>
+  <circle cx="140" cy="230" r="2" fill="#1B4B6F" opacity="0.6"/>
+  <circle cx="260" cy="230" r="2" fill="#1B4B6F" opacity="0.6"/>
+</svg>

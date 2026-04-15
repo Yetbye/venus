@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 中心圆环 -->
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <circle cx="200" cy="200" r="45" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="200" cy="200" r="30" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- 闪电符号 - 速度感 -->
+  <path d="M200 140 L185 190 L205 190 L195 230 L215 180 L195 180 Z" fill="none" stroke="#5A8F7B" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- 动态速度线条 - 外环 -->
+  <path d="M200 80 L200 95" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M200 305 L200 320" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M80 200 L95 200" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M305 200 L320 200" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  
+  <!-- 对角速度线 -->
+  <path d="M115 115 L125 125" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M275 275 L285 285" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M285 115 L275 125" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  <path d="M125 275 L115 285" fill="none" stroke="#5A8F7B" stroke-width="2"/>
+  
+  <!-- 流动数据流曲线 -->
+  <path d="M50 200 Q100 150 150 180 T250 160 T350 200" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  <path d="M50 220 Q100 270 150 240 T250 260 T350 220" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 数据粒子 -->
+  <circle cx="100" cy="165" r="3" fill="#5A8F7B" opacity="0.8"/>
+  <circle cx="180" cy="175" r="3" fill="#5A8F7B" opacity="0.8"/>
+  <circle cx="260" cy="155" r="3" fill="#5A8F7B" opacity="0.8"/>
+  <circle cx="320" cy="200" r="3" fill="#5A8F7B" opacity="0.8"/>
+  
+  <circle cx="100" cy="255" r="3" fill="#5A8F7B" opacity="0.6"/>
+  <circle cx="180" cy="245" r="3" fill="#5A8F7B" opacity="0.6"/>
+  <circle cx="260" cy="265" r="3" fill="#5A8F7B" opacity="0.6"/>
+  
+  <!-- 旋转弧线 -->
+  <path d="M280 120 A100 100 0 0 1 280 280" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.4"/>
+  <path d="M120 280 A100 100 0 0 1 120 120" fill="none" stroke="#5A8F7B" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- 脉冲圆点 -->
+  <circle cx="200" cy="60" r="4" fill="#5A8F7B" opacity="0.5"/>
+  <circle cx="340" cy="200" r="4" fill="#5A8F7B" opacity="0.5"/>
+  <circle cx="200" cy="340" r="4" fill="#5A8F7B" opacity="0.5"/>
+  <circle cx="60" cy="200" r="4" fill="#5A8F7B" opacity="0.5"/>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- 神奈川冲浪里风格大浪 -->
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B4B6F"/>
+      <stop offset="50%" style="stop-color:#2E6B8A"/>
+      <stop offset="100%" style="stop-color:#1B4B6F"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E6B8A"/>
+      <stop offset="100%" style="stop-color:#4A8CAB"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景天空 -->
+  <rect x="0" y="0" width="400" height="300" fill="#E8F4F8" opacity="0.2"/>
+  
+  <!-- 富士山背景 -->
+  <path d="M280 180 L320 100 L360 180 Q340 175 320 178 Q300 175 280 180" 
+        fill="#F5F5F5" stroke="#1B4B6F" stroke-width="1" opacity="0.6"/>
+  <!-- 富士山雪顶 -->
+  <path d="M305 140 L320 100 L335 140 Q328 138 320 140 Q312 138 305 140" 
+        fill="#FFF" opacity="0.8"/>
+  
+  <!-- 远处小浪 -->
+  <path d="M0 220 Q50 200 100 215 Q150 230 200 210 Q250 190 300 205 Q350 220 400 200 L400 300 L0 300 Z" 
+        fill="url(#waveGrad2)" opacity="0.4"/>
+  
+  <!-- 中距离波浪 -->
+  <path d="M0 250 Q60 220 120 240 Q180 260 240 235 Q300 210 360 230 Q400 245 400 300 L0 300 Z" 
+        fill="url(#waveGrad1)" opacity="0.6"/>
+  
+  <!-- 主大浪 - 标志性浪花 -->
+  <path d="M-20 300 Q20 200 80 180 Q140 160 200 170 Q260 180 320 160 Q380 140 420 180 Q450 220 420 300 Z" 
+        fill="url(#waveGrad1)"/>
+  
+  <!-- 浪花顶部 - 白色浪尖 -->
+  <path d="M60 185 Q100 165 140 175 Q180 185 220 175 Q260 165 300 170 Q340 175 380 165" 
+        stroke="#FFF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  
+  <!-- 浪花飞溅 - 爪子形状 -->
+  <g fill="#FFF" opacity="0.95">
+    <!-- 左侧浪花爪 -->
+    <path d="M40 200 Q35 160 50 140 Q55 160 60 190 Q50 195 40 200"/>
+    <path d="M60 185 Q65 145 80 125 Q85 145 85 175 Q75 180 60 185"/>
+    <path d="M85 175 Q95 140 110 120 Q115 140 110 170 Q100 173 85 175"/>
+    
+    <!-- 中间浪花爪 -->
+    <path d="M140 175 Q150 130 170 110 Q175 135 165 165 Q155 170 140 175"/>
+    <path d="M170 170 Q185 125 205 105 Q210 130 195 160 Q185 165 170 170"/>
+    <path d="M200 172 Q220 128 245 108 Q250 135 230 165 Q215 169 200 172"/>
+    
+    <!-- 右侧浪花爪 -->
+    <path d="M280 168 Q300 125 325 108 Q330 135 310 162 Q295 166 280 168"/>
+    <path d="M320 165 Q345 125 370 115 Q375 140 350 160 Q335 163 320 165"/>
+    <path d="M360 170 Q385 140 400 145 Q395 165 375 172 Q365 172 360 170"/>
+  </g>
+  
+  <!-- 浪花内部阴影 -->
+  <g fill="#2E6B8A" opacity="0.3">
+    <ellipse cx="55" cy="165" rx="8" ry="15"/>
+    <ellipse cx="85" cy="150" rx="10" ry="18"/>
+    <ellipse cx="165" cy="145" rx="12" ry="20"/>
+    <ellipse cx="215" cy="140" rx="14" ry="22"/>
+    <ellipse cx="325" cy="135" rx="12" ry="18"/>
+  </g>
+  
+  <!-- 波浪纹理线 -->
+  <g stroke="#FFF" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M100 220 Q150 200 200 215 Q250 230 300 210"/>
+    <path d="M120 240 Q170 220 220 235 Q270 250 320 230"/>
+    <path d="M80 260 Q140 240 200 255 Q260 270 340 245"/>
+  </g>
+  
+  <!-- 小船 -->
+  <g transform="translate(180, 235)">
+    <path d="M0 15 Q20 25 40 15 L35 5 Q20 8 5 5 Z" fill="#2C3E50"/>
+    <rect x="15" y="0" width="2" height="8" fill="#2C3E50"/>
+    <rect x="25" y="2" width="2" height="6" fill="#2C3E50"/>
+  </g>
+  
+  <!-- 另一艘小船 -->
+  <g transform="translate(280, 220)">
+    <path d="M0 12 Q18 22 36 12 L32 4 Q18 6 4 4 Z" fill="#2C3E50"/>
+  </g>
+  
+  <!-- 飞溅的水滴 -->
+  <g fill="#FFF" opacity="0.6">
+    <circle cx="50" cy="130" r="3"/>
+    <circle cx="120" cy="100" r="2"/>
+    <circle cx="200" cy="95" r="4"/>
+    <circle cx="330" cy="100" r="3"/>
+    <circle cx="380" cy="130" r="2"/>
+  </g>
+  
+  <!-- 底部深色海水 -->
+  <path d="M0 280 Q100 260 200 275 Q300 290 400 270 L400 300 L0 300 Z" 
+        fill="#0F3A5C" opacity="0.5"/>
+</svg>

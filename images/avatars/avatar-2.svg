@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="avatar2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c77dff"/>
+      <stop offset="50%" style="stop-color:#9d4edd"/>
+      <stop offset="100%" style="stop-color:#7b2cbf"/>
+    </linearGradient>
+    <radialGradient id="avatar2Shine" cx="30%" cy="25%" r="60%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.22"/>
+      <stop offset="100%" style="stop-color:#fff;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="avatarShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#avatarShadow)">
+    <circle cx="60" cy="60" r="56" fill="url(#avatar2Bg)"/>
+  </g>
+  <circle cx="60" cy="60" r="56" fill="url(#avatar2Shine)"/>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" fill="#fff">Z</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" fill="none">
+  <!-- 扇子图案 - 日式折扇 -->
+  <defs>
+    <linearGradient id="fanGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E85D4E"/>
+      <stop offset="50%" style="stop-color:#D1483C"/>
+      <stop offset="100%" style="stop-color:#E85D4E"/>
+    </linearGradient>
+    <linearGradient id="fanGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4D03F"/>
+      <stop offset="50%" style="stop-color:#F7DC6F"/>
+      <stop offset="100%" style="stop-color:#F4D03F"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 扇面 - 朱红色 -->
+  <path d="M20 85 Q100 15 180 85 Q160 92 140 88 Q120 94 100 90 Q80 94 60 88 Q40 92 20 85" 
+        fill="url(#fanGrad1)" opacity="0.9"/>
+  
+  <!-- 扇面内侧浅色区域 -->
+  <path d="M30 82 Q100 25 170 82 Q155 87 140 84 Q125 88 110 85 Q95 88 80 85 Q65 88 50 84 Q35 87 30 82" 
+        fill="#FF6B5B" opacity="0.3"/>
+  
+  <!-- 扇骨 - 放射状线条 -->
+  <g stroke="#2C3E50" stroke-width="1" fill="none" opacity="0.6">
+    <!-- 左侧扇骨 -->
+    <line x1="20" y1="85" x2="45" y2="50"/>
+    <line x1="20" y1="85" x2="60" y2="35"/>
+    <line x1="20" y1="85" x2="75" y2="28"/>
+    
+    <!-- 中间扇骨 -->
+    <line x1="20" y1="85" x2="100" y2="20"/>
+    
+    <!-- 右侧扇骨 -->
+    <line x1="180" y1="85" x2="125" y2="28"/>
+    <line x1="180" y1="85" x2="140" y2="35"/>
+    <line x1="180" y1="85" x2="155" y2="50"/>
+  </g>
+  
+  <!-- 扇面装饰图案 - 简约线条 -->
+  <g stroke="#FFF" stroke-width="0.8" fill="none" opacity="0.4">
+    <path d="M50 75 Q70 60 90 70"/>
+    <path d="M110 70 Q130 60 150 75"/>
+    <path d="M80 65 Q100 55 120 65"/>
+  </g>
+  
+  <!-- 扇钉 -->
+  <circle cx="100" cy="85" r="4" fill="#2C3E50"/>
+  <circle cx="100" cy="85" r="2" fill="#C9A86C"/>
+  
+  <!-- 扇柄 -->
+  <path d="M98 89 L95 98 Q100 100 105 98 L102 89" 
+        fill="#2C3E50"/>
+  
+  <!-- 扇缘装饰 -->
+  <path d="M20 85 Q100 15 180 85" 
+        stroke="#D1483C" stroke-width="2" fill="none"/>
+  
+  <!-- 金色版本扇面 (下方) -->
+  <g transform="translate(0, 10)">
+    <path d="M20 85 Q100 15 180 85 Q160 92 140 88 Q120 94 100 90 Q80 94 60 88 Q40 92 20 85" 
+          fill="url(#fanGrad2)" opacity="0.8"/>
+    
+    <!-- 扇骨 -->
+    <g stroke="#B7950B" stroke-width="0.8" fill="none" opacity="0.5">
+      <line x1="20" y1="85" x2="60" y2="35"/>
+      <line x1="20" y1="85" x2="100" y2="20"/>
+      <line x1="180" y1="85" x2="140" y2="35"/>
+      <line x1="180" y1="85" x2="100" y2="20"/>
+    </g>
+    
+    <!-- 装饰 -->
+    <circle cx="100" cy="55" r="8" stroke="#B7950B" stroke-width="1" fill="none" opacity="0.4"/>
+    
+    <!-- 扇钉 -->
+    <circle cx="100" cy="85" r="3" fill="#B7950B"/>
+  </g>
+  
+  <!-- 小扇子装饰 -->
+  <g transform="translate(150, 5) scale(0.4)">
+    <path d="M20 85 Q100 15 180 85 Q160 92 140 88 Q120 94 100 90 Q80 94 60 88 Q40 92 20 85" 
+          fill="url(#fanGrad1)" opacity="0.6"/>
+    <line x1="20" y1="85" x2="100" y2="20" stroke="#2C3E50" stroke-width="2"/>
+    <line x1="180" y1="85" x2="100" y2="20" stroke="#2C3E50" stroke-width="2"/>
+  </g>
+</svg>
